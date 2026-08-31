@@ -1,15 +1,8 @@
----
-title_es: "Roadmap"
-title_en: "Roadmap"
-section: "docs"
-updated: 2026-08-31
----
-
 <div align="center">
 
-# Hoja de ruta · Roadmap
+# Roadmap
 
-**🇪🇸 Español** · [🇬🇧 English](#-english)
+**🇪🇸 Español** · [English](#-english)
 
 </div>
 
