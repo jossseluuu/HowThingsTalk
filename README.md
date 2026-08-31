@@ -21,6 +21,7 @@ Este repositorio pretende ser una biblioteca de explicaciones sobre **cómo func
 Cada una de las entradas responde a **una pregunta concreta y directa** con el detalle necesario para entenderla de verdad, sin quedarse en meras metáforas. El proyecto persigue un doble compromiso deliberado:
 
 > El pacto con el principiante: Abrir la puerta al conocimiento de forma intuitiva, guiando la lectura sin apoyarse en tecnicismos ni artificios.
+
 > El pacto con el experto: Garantizar una solidez técnica impecable, libre de imprecisiones o concesiones al rigor.
 
 Para lograrlo, cada artículo se estructura en **cuatro capas de profundidad diferentes**:
@@ -106,18 +107,18 @@ Tanto la estructura de carpetas, como la de archivos y artículosutiliza el form
 
 | Sección | Artículos Previstos | Artículos Escritos |
 |---|---|---|
-| 00 - Fundamentos | 15 | 0 |
-| 01 - Redes WiFi | 17 | 0 |
-| 02 - Redes Móviles | 19 | 0 |
-| 03 - Corto Alcance | 16 | 0 |
-| 04 - Transferencia de Datos | 15 | 0 |
-| 05 - Geolocalización | 18 | **1** |
-| 06 - Almacenamiento | 16 | 0 |
-| 07 - Audio y Periféricos | 16 | 0 |
-| 08 - Energía y Baterias | 15 | 0 |
-| 09 - IOT (Internet of Things) | 17 | 0 |
-| 10 - Seguridad y Criptografía | 16 | 0 |
-| 11 - Privacidad y Huella | 16 | 0 |
+| 00 - Fundamentos | X | Y |
+| 01 - Redes WiFi | X | Y |
+| 02 - Redes Móviles | X | Y |
+| 03 - Corto Alcance | X | Y |
+| 04 - Transferencia de Datos | X | Y |
+| 05 - Geolocalización | X | Y |
+| 06 - Almacenamiento | X | Y |
+| 07 - Audio y Periféricos | X | Y |
+| 08 - Energía y Baterias | X | Y |
+| 09 - IOT (Internet of Things) | X | Y |
+| 10 - Seguridad y Criptografía | X | Y |
+| 11 - Privacidad y Huella | X | Y |
 
 ## ¿Cómo se escribe aquí?
 
@@ -177,6 +178,7 @@ This repository aims to be a comprehensive reference library explaining how the 
 Every article tackles one specific, direct question with the exact depth required for genuine understanding, going far beyond surface-level metaphors. This project is built on a deliberate dual commitment:
 
 > The Beginner's Pact: Opening the door to technical knowledge intuitively, guiding the reader step-by-step without relying on obscure jargon or artificial fluff.
+
 > The Expert's Pact: Guaranteeing uncompromising technical precision, completely free of inaccuracies or concessions to rigor.
 
 To achieve this, every entry is structured into four distinct layers of depth:
@@ -257,22 +259,22 @@ HowThingsTalk/
 The sections follow a bottom-up architecture: moving from core physical foundations at the base, ascending through protocols, and culminating in real-world implications. Every article declares its required background knowledge in its header, if a concept feels daunting, the necessary prerequisite context is always a single click away.
 All directory trees, filenames, and article paths strictly enforce CamelCase. Furthermore, all articles and reference documents across the library are maintained in a bilingual format. To dive deeper into the design philosophy and full ruleset, check out our [document](guides/NamingConvention.md).
 
-## Estado
+## sTATE
 
-| Sección | Artículos Previstos | Artículos Escritos |
+| Section | Planned Articles | Writed Articles |
 |---|---|---|
-| 00 - Foundations | 15 | 0 |
-| 01 - WiFi Networks | 17 | 0 |
-| 02 - Cellular Networks | 19 | 0 |
-| 03 - Short-Range Radio | 16 | 0 |
-| 04 - Data Transfer | 15 | 0 |
-| 05 - Positioning | 18 | **1** |
-| 06 - Storage | 16 | 0 |
-| 07 - Audio and Peripherals | 16 | 0 |
-| 08 - Power and Batteries | 15 | 0 |
-| 09 - IOT (Internet of Things) | 17 | 0 |
-| 10 - Security and Cryptography | 16 | 0 |
-| 11 - Privacy and Footprint | 16 | 0 |
+| 00 - Foundations | X | Y |
+| 01 - WiFi Networks | X | Y |
+| 02 - Cellular Networks | X | Y |
+| 03 - Short-Range Radio | X | Y |
+| 04 - Data Transfer | X | Y |
+| 05 - Positioning | X | Y |
+| 06 - Storage | X | Y |
+| 07 - Audio and Peripherals | X | Y |
+| 08 - Power and Batteries | X | Y |
+| 09 - IOT (Internet of Things) | X | Y |
+| 10 - Security and Cryptography | X | Y |
+| 11 - Privacy and Footprint | X | Y |
 
 ## How We Write
 
