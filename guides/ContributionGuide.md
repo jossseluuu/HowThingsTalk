@@ -66,15 +66,15 @@ The project follows a very specific line of writing: direct, technical, precise,
 
 ### 3. Usa la plantilla / Use the template
 
-Copia [templates/ArticuleTemplate.md](../templates/ArticuleTemplate.md) y trabaja desde ahí. No hagas un artículo desde cero dejando la estructura al azar.
+Copia [templates/ArticleTemplate.md](../templates/ArticleTemplate.md) y trabaja desde ahí: la parte española va a `docs/ES/<sección>/` y la inglesa a `docs/EN/<sección>/`. No escribas un artículo desde cero dejando la estructura al azar.
 
-Copy [templates/ArticuleTemplate.md](../templates/ArticuleTemplate.md) and work from there. Do not start writing a new article from scratch without following the structure.
+Copy [templates/ArticleTemplate.md](../templates/ArticleTemplate.md) and work from there: the Spanish part goes to `docs/ES/<section>/` and the English part to `docs/EN/<section>/`. Do not start a new article from scratch without following the structure.
 
 ### 4. Nombra el archivo correctamente / Name the file correctly
 
-El nombre debe seguir la convención del proyecto. Consulta [NamingConvention.md](NamingConvention.md).
+Los dos archivos (ES y EN) llevan el mismo número de orden y el nombre en su idioma; el `NN` es el siguiente número libre de la sección. Consulta [NamingConvention.md](NamingConvention.md).
 
-The filename must follow the repository convention. Review [NamingConvention.md](NamingConvention.md).
+Both files (ES and EN) carry the same order number and a name in their own language; `NN` is the next free number in the section. Review [NamingConvention.md](NamingConvention.md).
 
 ### 5. Escribe con la pregunta clara / Write with a clear question
 
@@ -90,15 +90,15 @@ Every technical claim should include context: unit, scenario, and source. If the
 
 ### 7. Actualiza la navegación / Update navigation
 
-Cuando el artículo se publique o se complete una primera versión, hay que enlazarlo desde [docs/Index.md](../docs/Index.md) y, si procede, reflejar el avance en [docs/RoadMap.md](../docs/RoadMap.md).
+Cuando el artículo se publique o se complete una primera versión, enlaza sus dos versiones desde [docs/Index.md](../docs/Index.md) y refleja el avance en [docs/RoadMap.md](../docs/RoadMap.md). Los contadores de estado y el [CHANGELOG](../CHANGELOG.md) se actualizan automáticamente cada día.
 
-When an article is published or reaches a first complete draft, it must be linked from [docs/Index.md](../docs/Index.md) and, when relevant, reflected in [docs/RoadMap.md](../docs/RoadMap.md).
+When an article is published or reaches a first complete draft, link both versions from [docs/Index.md](../docs/Index.md) and reflect the progress in [docs/RoadMap.md](../docs/RoadMap.md). Status counters and the [CHANGELOG](../CHANGELOG.md) are updated automatically every day.
 
 ### 8. Abre un pull request / Open a pull request
 
 Antes de enviar la propuesta, revisa:
 
-- nombre del archivo;
+- nombre de los dos archivos (ES y EN);
 - ruta correcta en la sección;
 - estructura del artículo;
 - referencias con fuentes primarias;
@@ -107,7 +107,7 @@ Antes de enviar la propuesta, revisa:
 
 Before submitting, review:
 
-- filename and path;
+- filenames (ES and EN) and paths;
 - correct section placement;
 - article structure;
 - references with primary sources;
@@ -213,7 +213,7 @@ If editing an existing text, provide:
 ## Checklist antes de hacer PR / PR checklist
 
 - [ ] El tema no duplicaba un artículo ya publicado o en curso.
-- [ ] El archivo sigue la convención de nomenclatura.
+- [ ] Los dos archivos (ES y EN) siguen la convención de nombres y comparten número.
 - [ ] La estructura del artículo corresponde a la plantilla.
 - [ ] La pregunta es nítida y específica.
 - [ ] Hay una explicación del mecanismo real, no solo una metáfora.
@@ -223,7 +223,7 @@ If editing an existing text, provide:
 - [ ] El índice y la ruta del artículo están actualizados.
 
 - [ ] The topic does not duplicate a published or in-progress article.
-- [ ] The file follows the naming convention.
+- [ ] Both files (ES and EN) follow the naming convention and share a number.
 - [ ] The article structure matches the template.
 - [ ] The question is clear and specific.
 - [ ] The real mechanism is explained, not just the metaphor.
@@ -259,8 +259,11 @@ Before writing:
 3. Use the article template.
 4. Write one specific question at a time.
 5. Verify every claim with a reliable source.
-6. Update the relevant navigation file before the PR.
+6. Write both language versions.
+7. Update the relevant navigation files before the PR.
 
 A good contribution is not “smart-sounding”; it is correct, readable, and useful to a curious reader who wants to understand the mechanism, not just the headline.
 
-[← Volver al índice general / Back to the main index](../docs/Index.md)
+[Volver al español · Back to Spanish](#guía-de-contribución--contribution-guide)
+
+[← Volver al índice general / Back to the master index](../docs/Index.md)

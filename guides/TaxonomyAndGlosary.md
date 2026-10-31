@@ -14,19 +14,21 @@ El contenido del repositorio se organiza por tema y por profundidad. La estructu
 
 The content of the repository is organized by topic and depth. The core structure is:
 
-- `00` · Fundamentos / Foundations
-- `01` · Redes WiFi / WiFi Networks
-- `02` · Redes Móviles / Cellular Networks
-- `03` · Corto Alcance / Short-Range Radio
-- `04` · Transferencia de Datos / Data Transfer
-- `05` · Geolocalización / Positioning
-- `06` · Almacenamiento / Storage
-- `07` · Audio y Periféricos / Audio and Peripherals
-- `08` · Energía y Baterías / Power and Batteries
-- `09` · IoT y Smart Home / IoT and Smart Home
-- `10` · Seguridad y Criptografía / Security and Cryptography
-- `11` · Privacidad y Huella / Privacy and Footprint
-- `99` · Referencia / Reference
+| Nº | Sección / Section | Carpeta ES / ES folder | Carpeta EN / EN folder |
+|---|---|---|---|
+| `00` | Fundamentos / Foundations | `00_Fundamentos` | `00_Foundations` |
+| `01` | Redes WiFi / WiFi Networks | `01_RedesWiFi` | `01_WiFiNetworks` |
+| `02` | Redes Móviles / Cellular Networks | `02_RedesMoviles` | `02_CellularNetworks` |
+| `03` | Corto Alcance / Short-Range Radio | `03_CortoAlcance` | `03_ShortRangeRadio` |
+| `04` | Transferencia de Datos / Data Transfer | `04_TransferenciaDeDatos` | `04_DataTransfer` |
+| `05` | Geolocalización / Positioning | `05_Geolocalizacion` | `05_Positioning` |
+| `06` | Almacenamiento / Storage | `06_Almacenamiento` | `06_Storage` |
+| `07` | Audio y Periféricos / Audio and Peripherals | `07_AudioYPerifericos` | `07_AudioAndPeripherals` |
+| `08` | Energía y Baterías / Power and Batteries | `08_EnergiaYBaterias` | `08_PowerAndBatteries` |
+| `09` | IoT y Smart Home / IoT and Smart Home | `09_IOT` | `09_IOT` |
+| `10` | Seguridad y Criptografía / Security and Cryptography | `10_SeguridadYCriptografia` | `10_SecurityAndCryptography` |
+| `11` | Privacidad y Huella / Privacy and Footprint | `11_PrivacidadYHuella` | `11_PrivacyAndFootprint` |
+| `99` | Referencia / Reference | `99_Referencia` | `99_Reference` |
 
 Cada sección tiene una función distinta:
 
@@ -96,6 +98,11 @@ These are usually tables, lists, timelines, myth-busting entries, comparisons, o
 
 ## 3. Glosario principal / Main glossary
 
+### Ancho de banda / Bandwidth
+Anchura del rango de frecuencias que ocupa una señal o un canal, medida en hercios (por ejemplo, 20 MHz en un canal WiFi). En el lenguaje común se usa también como sinónimo de capacidad de datos; en este proyecto, cuando se habla de bits por segundo, se dice tasa de bits o throughput.
+
+Width of the frequency range occupied by a signal or channel, measured in hertz (for example, 20 MHz for a WiFi channel). In everyday language it is also used to mean data capacity; in this project, when we mean bits per second, we say bitrate or throughput.
+
 ### Antena / Antenna
 Una estructura que convierte corriente eléctrica en ondas electromagnéticas y viceversa. Su forma, tamaño y orientación afectan la dirección, la ganancia y la eficiencia del enlace.
 
@@ -106,20 +113,10 @@ Un rango de frecuencias usado por una tecnología. Ejemplos: 2,4 GHz, 5 GHz, ban
 
 A range of frequencies used by a technology. Examples: 2.4 GHz, 5 GHz, low band, microwave band.
 
-### Bandwidth
-Cantidad de información que puede transportarse en un intervalo de tiempo. En telecomunicaciones se usa a menudo como capacidad útil del canal.
-
-Amount of information that can be transported in a given time interval. In telecommunications, it is often used as the useful capacity of a channel.
-
-### Bitrate
-Velocidad de transferencia digital, normalmente expresada en bits por segundo.
-
-Rate of digital transfer, usually expressed in bits per second.
-
 ### BSSID
-Identificador de una red inalámbrica concreta. En WiFi, cada punto de acceso suele tener un BSSID único.
+Identificador de un punto de acceso WiFi concreto, normalmente su dirección MAC (48 bits). Una misma red (SSID) puede tener muchos BSSID, uno por punto de acceso y banda.
 
-Identifier of a specific wireless network. In WiFi, each access point typically has a unique BSSID.
+Identifier of a specific WiFi access point, usually its MAC address (48 bits). A single network (SSID) can have many BSSIDs, one per access point and band.
 
 ### Canal / Channel
 Un segmento concreto de frecuencia dentro de una banda. En WiFi y Bluetooth, el canal determina qué grupos de frecuencia usa el enlace.
@@ -131,15 +128,15 @@ Parte de una pila de protocolos: física, enlace, red, transporte, aplicación. 
 
 Part of a protocol stack: physical, link, network, transport, application. Each layer solves a different problem.
 
-### Código / Codec
-Algoritmo que comprime y descomprime audio o video. Cambia la calidad, el ancho de banda y la latencia.
+### Códec / Codec
+Algoritmo que comprime y descomprime audio o vídeo. Cambia la calidad, el ancho de banda y la latencia.
 
 Algorithm that compresses and decompresses audio or video. It changes quality, bandwidth, and latency.
 
-### Decibel / Decibel
-Unidad logarítmica usada para comparar potencias o niveles de señal. El dB y sus variantes, como dBm, aparecen mucho en radio y audio.
+### Decibelio / Decibel
+Unidad logarítmica que expresa la relación entre dos potencias: +3 dB es aproximadamente el doble y +10 dB, diez veces más. El dBm es la potencia referida a 1 mW, de modo que 0 dBm = 1 mW y −70 dBm = 0,1 nW.
 
-Logarithmic unit used to compare power or signal levels. dB and its variants, such as dBm, appear often in radio and audio.
+Logarithmic unit expressing the ratio between two powers: +3 dB is roughly double and +10 dB is ten times more. dBm is power referenced to 1 mW, so 0 dBm = 1 mW and −70 dBm = 0.1 nW.
 
 ### Enlace / Link
 Conexión lógica o física entre dos puntos: radio, cable, Bluetooth, WiFi, etc.
@@ -147,14 +144,14 @@ Conexión lógica o física entre dos puntos: radio, cable, Bluetooth, WiFi, etc
 Logical or physical connection between two points: radio, cable, Bluetooth, WiFi, etc.
 
 ### Frecuencia / Frequency
-Número de ciclos por segundo de una onda. Se mide en hertzios, y determina cómo interactúa la onda con el entorno.
+Número de ciclos por segundo de una onda. Se mide en hercios (Hz), y determina cómo interactúa la onda con el entorno.
 
 Number of cycles per second of a wave. Measured in hertz, it determines how the wave interacts with the environment.
 
 ### GPS
-Sistema de posicionamiento global basado en satélites. Se usa para geolocalización, sincronización y navegación.
+Sistema estadounidense de navegación por satélite, uno de los GNSS junto a Galileo, GLONASS y BeiDou. Se usa para posicionamiento, navegación y sincronización horaria.
 
-Global positioning system based on satellites. Used for geolocation, synchronization, and navigation.
+The US satellite navigation system, one of the GNSS alongside Galileo, GLONASS, and BeiDou. Used for positioning, navigation, and time synchronization.
 
 ### Latencia / Latency
 Tiempo que tarda un dato en recorrer un sistema o una red; normalmente se expresa en milisegundos.
@@ -165,11 +162,6 @@ Time required for data to traverse a system or network; typically expressed in m
 Multiple Input Multiple Output: uso de varias antenas para transmitir o recibir más información simultáneamente.
 
 Multiple Input Multiple Output: the use of multiple antennas to transmit or receive more information simultaneously.
-
-### Noise
-Señal no deseada que reduce la claridad del mensaje. Peor que la señal, la relación señal-ruido es clave.
-
-Unwanted signal that reduces the clarity of the message. More than signal strength, the signal-to-noise ratio is key.
 
 ### Paquete / Packet
 Unidad de datos de red. Una aplicación puede dividir un archivo en muchos paquetes que viajan por la red y se reensamblan al llegar.
@@ -186,15 +178,25 @@ Conjunto de reglas para que dos sistemas puedan comunicarse sin ambigüedad.
 
 Set of rules that allows two systems to communicate without ambiguity.
 
-### Señal / Signal
-Señal útil que transporta información. La calidad real depende de la fuerza, el ruido, el canal y la interferencia.
-
-Useful signal that carries information. Real quality depends on signal strength, noise, the channel, and interference.
-
-### Throughput
-Cantidad efectiva de datos que pasa por un sistema o canal en un tiempo real, teniendo en cuenta pérdidas y overhead.
+### Rendimiento efectivo / Throughput
+Cantidad efectiva de datos que pasa por un sistema o canal por unidad de tiempo, teniendo en cuenta pérdidas y overhead.
 
 Actual amount of data that passes through a system or channel over time, taking into account losses and overhead.
+
+### Ruido / Noise
+Energía no deseada que se suma a la señal y dificulta recuperar el mensaje. Más que la potencia de la señal, lo que decide si un enlace funciona es la relación señal-ruido (SNR).
+
+Unwanted energy added to the signal that makes the message harder to recover. More than signal strength, what decides whether a link works is the signal-to-noise ratio (SNR).
+
+### Señal / Signal
+Magnitud física que varía para transportar información. La calidad real depende de la fuerza, el ruido, el canal y la interferencia.
+
+Physical quantity that varies to carry information. Real quality depends on signal strength, noise, the channel, and interference.
+
+### Tasa de bits / Bitrate
+Velocidad de transferencia digital, expresada en bits por segundo (bit/s, Mbit/s).
+
+Rate of digital transfer, expressed in bits per second (bit/s, Mbit/s).
 
 ### UWB
 Ultra Wide Band: técnica de radio con ancho de banda muy grande, útil para localización de alta precisión y sistemas de ranging.
@@ -202,9 +204,9 @@ Ultra Wide Band: técnica de radio con ancho de banda muy grande, útil para loc
 Ultra Wide Band: radio technique with a very large bandwidth, useful for high-precision localization and ranging systems.
 
 ### WiFi
-Tecnología de redes inalámbricas localizadas en 2,4 GHz, 5 GHz y, en algunos casos, 6 GHz. Permite conectar dispositivos a una red local y a internet.
+Tecnología de redes inalámbricas de área local (familia IEEE 802.11) que opera en 2,4 GHz, 5 GHz y, en los equipos recientes, 6 GHz. Permite conectar dispositivos a una red local y a internet.
 
-Wireless networking technology operating in 2.4 GHz, 5 GHz, and in some cases 6 GHz. It allows devices to connect to a local network and to the internet.
+Wireless local area networking technology (IEEE 802.11 family) operating in 2.4 GHz, 5 GHz, and, on recent equipment, 6 GHz. It allows devices to connect to a local network and to the internet.
 
 ---
 
@@ -222,7 +224,7 @@ Some concepts appear across many sections and should be used consistently:
 - `protocolo` / `protocol`
 - `capa` / `layer`
 - `enlace` / `link`
-- `bateria` / `battery`
+- `batería` / `battery`
 - `sensor` / `sensor`
 - `telemetría` / `telemetry`
 - `privacidad` / `privacy`
@@ -256,4 +258,6 @@ The library is structured by topic and depth. Each section corresponds to a tech
 
 The glossary is intentionally small but precise: terms are defined once, then reused consistently across the entire project so that readers do not have to relearn the same concept in every chapter.
 
-[← Volver al índice general / Back to the main index](../docs/Index.md)
+[Volver al español · Back to Spanish](#taxonomía-y-glosario--taxonomy-and-glossary)
+
+[← Volver al índice general / Back to the master index](../docs/Index.md)

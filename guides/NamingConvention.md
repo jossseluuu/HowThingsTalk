@@ -20,14 +20,14 @@ The repository needs files, folders, and articles to behave like a well-ordered 
 
 1. Cada sección tiene una ruta clara y estable.
 2. Los nombres deben ser descriptivos, breves y consistentes.
-3. Los archivos de artículo deben responder una sola pregunta concreta.
-4. Las rutas deben seguir el mismo patrón en español e inglés.
+3. Cada archivo de artículo responde una sola pregunta concreta.
+4. Las rutas siguen el mismo patrón en español e inglés.
 5. No se usan espacios ni nombres ambiguos.
 
 1. Each section has a clear and stable path.
 2. Names must be descriptive, brief, and consistent.
-3. Article files must answer one single, concrete question.
-4. Paths should follow the same pattern in Spanish and English.
+3. Each article file answers one single, concrete question.
+4. Paths follow the same pattern in Spanish and English.
 5. No spaces or ambiguous names are used.
 
 ---
@@ -49,34 +49,53 @@ HowThingsTalk/
 │   └── RoadMap.md
 ├── guides/
 ├── templates/
-├── Readme.md
-└── ...
+├── CHANGELOG.md
+├── LICENSE.md
+└── README.md
 ```
+
+---
+
+## Archivos raíz / Root files
+
+Los archivos que GitHub reconoce por su nombre van en mayúsculas: `README.md`, `CHANGELOG.md` y `LICENSE.md`. El resto de documentos del proyecto (`docs/Index.md`, `docs/RoadMap.md`, las guías y la plantilla) usan PascalCase. La extensión es siempre `.md`, en minúsculas.
+
+Files that GitHub recognizes by name are uppercase: `README.md`, `CHANGELOG.md`, and `LICENSE.md`. Every other project document (`docs/Index.md`, `docs/RoadMap.md`, the guides, and the template) uses PascalCase. The extension is always lowercase `.md`.
+
+---
 
 ## Regla de carpetas / Folder rules
 
-### Secciones principales
+### Secciones principales / Main sections
 
 Cada carpeta de sección usa:
 
 - número de sección con dos dígitos;
-- nombre descriptivo de la temática;
 - guion bajo para separar número y título;
-- el título en el idioma correspondiente.
+- título descriptivo en PascalCase, en el idioma de la carpeta (`ES` o `EN`).
 
-Examples:
+Each section folder uses:
 
-- `docs/ES/05_Geolocalizacion/`
-- `docs/EN/05_Positioning/`
-- `docs/ES/10_SeguridadYCriptografia/`
-- `docs/EN/10_SecurityAndCryptography/`
+- a two-digit section number;
+- an underscore between number and title;
+- a descriptive PascalCase title in the folder's language (`ES` or `EN`).
 
-### Reglas adicionales
+Ejemplos / Examples:
 
-- No se usan espacios.
-- No se usan caracteres raros.
-- Se usa CamelCase / PascalCase o palabras concatenadas con mayúsculas iniciales, según el idioma.
-- La sección debe coincidir con el número que aparece en la hoja de ruta.
+- `docs/ES/05_Geolocalizacion/` ↔ `docs/EN/05_Positioning/`
+- `docs/ES/10_SeguridadYCriptografia/` ↔ `docs/EN/10_SecurityAndCryptography/`
+
+### Reglas adicionales / Additional rules
+
+- Sin espacios.
+- Sin tildes, eñes ni caracteres especiales: `Geolocalizacion`, no `Geolocalización`.
+- Las siglas se mantienen como se escriben habitualmente (`WiFi`, `IOT`).
+- El número de la carpeta coincide con el de la hoja de ruta y es el mismo en `ES` y `EN`.
+
+- No spaces.
+- No accents, `ñ`, or special characters.
+- Acronyms keep their usual spelling (`WiFi`, `IOT`).
+- The folder number matches the roadmap and is the same in `ES` and `EN`.
 
 ---
 
@@ -84,107 +103,109 @@ Examples:
 
 Los artículos siguen este patrón:
 
+Articles follow this pattern:
+
 ```text
 NN-TituloDelArticulo.md
 ```
 
-Donde:
+Donde / Where:
 
-- `NN` = dos dígitos de orden dentro de la sección;
-- `TituloDelArticulo` = título corto y directo;
-- `.md` = formato Markdown.
+- `NN` = dos dígitos de orden dentro de la sección / two-digit order within the section;
+- `TituloDelArticulo` = título corto y directo en PascalCase / short, direct PascalCase title;
+- `.md` = formato Markdown / Markdown format.
 
-Examples:
+### Un artículo, dos archivos / One article, two files
 
-- `01-WiFiPositioning.md`
-- `02-TrilaterationVsTriangulation.md`
-- `09-WhyRadioPassesWalls.md`
-- `10-HowTOTPWorks.md`
+Cada artículo existe en las dos carpetas de idioma, con **el mismo `NN`** y el nombre escrito en el idioma de su contenido:
 
-### Reglas para el nombre
+Every article exists in both language folders, with **the same `NN`** and a name written in the language of its content:
 
-- Solo letras, números y guiones medios.
-- Sin espacios, puntos ni subrayados.
-- El texto debe ser legible y describir la pregunta del artículo.
-- Debe poder entenderse sin abrir el archivo.
-- Si el título es largo, se abrevia con precisión; no con “misc” o “stuff”.
+| ES | EN |
+|---|---|
+| `docs/ES/05_Geolocalizacion/01-LocalizacionPorWiFi.md` | `docs/EN/05_Positioning/01-WiFiPositioning.md` |
+| `docs/ES/05_Geolocalizacion/02-TrilateracionVsTriangulacion.md` | `docs/EN/05_Positioning/02-TrilaterationVsTriangulation.md` |
+| `docs/ES/10_SeguridadYCriptografia/02-ComoFuncionaTOTP.md` | `docs/EN/10_SecurityAndCryptography/02-HowTOTPWorks.md` |
+
+La pareja ES/EN se identifica por la sección y el `NN`, que es el siguiente número libre de la sección. Los dos archivos se crean a la vez.
+
+The ES/EN pair is identified by section and `NN`, which is the next free number in the section. Both files are created together.
+
+### Reglas para el nombre / Name rules
+
+- Solo letras sin tilde, números y un único guion medio tras `NN`.
+- Sin espacios, puntos ni guiones bajos en el título.
+- Empieza por mayúscula (PascalCase).
+- Describe la pregunta del artículo y se entiende sin abrir el archivo.
+- Si el título es largo, se abrevia con precisión; nunca con «Varios» o «Misc».
+
+- Unaccented letters, digits, and a single hyphen after `NN` only.
+- No spaces, dots, or underscores in the title.
+- Starts with a capital letter (PascalCase).
+- Describes the article's question and is understandable without opening the file.
+- Long titles are shortened precisely; never with "Misc" or "Stuff".
 
 ---
 
 ## Títulos y lenguaje / Titles and language
 
-Los artículos deben nombrarse con la idea central, no con frases genéricas.
+Los artículos se nombran con la idea central, no con etiquetas genéricas.
 
-Correcto:
+Articles are named after their central idea, not a generic label.
 
-- `11-RelativityInGPS.md`
-- `08-WhyPhonesDieInCold.md`
-- `09-WhatTLSDoesNotProtect.md`
+Correcto / Correct:
 
-Incorrecto:
+- `03-RelatividadEnElGPS.md` · `03-RelativityInGPS.md`
+- `01-PorQueElMovilSeApagaConFrio.md` · `01-WhyPhonesDieInCold.md`
+- `01-LoQueTLSNoProtege.md` · `01-WhatTLSDoesNotProtect.md`
 
-- `MiArticulo.md`
-- `NotasSobreGPS.md`
-- `DocumentacionFinal.md`
-
-El artículo puede estar escrito en español, pero el nombre debe seguir la convención del idioma del contenido. La estructura del repositorio se mantiene bilingüe, no mezclada.
-
-The article title should reflect the central idea, not a generic label.
-
-Correct:
-
-- `11-RelativityInGPS.md`
-- `08-WhyPhonesDieInCold.md`
-- `09-WhatTLSDoesNotProtect.md`
-
-Incorrect:
+Incorrecto / Incorrect:
 
 - `MiArticulo.md`
 - `NotasSobreGPS.md`
 - `DocumentacionFinal.md`
 
-The article may be written in Spanish, but the filename must follow the naming convention of the language used in the content. The repository structure remains bilingual, not mixed.
+La estructura del repositorio es bilingüe, no mezclada: un archivo de `docs/ES/` está escrito y nombrado en español, y uno de `docs/EN/`, en inglés.
+
+The repository structure is bilingual, not mixed: a file in `docs/ES/` is written and named in Spanish, and one in `docs/EN/` in English.
 
 ---
 
 ## Front matter y metadatos / Front matter and metadata
 
-Cada archivo debe incluir la cabecera de metadatos al principio. El esquema mínimo es:
+Cada artículo empieza con una cabecera YAML. Las claves y los valores controlados (`language`, `status`, `depth`) son iguales en los dos idiomas, para que puedan procesarse de forma automática; solo `title`, `summary` y `prerequisites` se escriben en el idioma del artículo.
+
+Every article starts with a YAML header. Keys and controlled values (`language`, `status`, `depth`) are identical in both languages so they can be processed automatically; only `title`, `summary`, and `prerequisites` are written in the article's language.
 
 ```yaml
 ---
-title: "Título del artículo"
-section: "05-Positioning"
+title: "Cómo te localiza el WiFi sin que te conectes a ninguna red"
+section: "05_Geolocalizacion"
 language: "es"
 status: "draft"
 order: 1
-depth: "intermedio"
+depth: "intermediate"
 summary: "Resumen breve de la pregunta y la respuesta."
 prerequisites:
   - "Concepto A"
   - "Concepto B"
+translation: "../../EN/05_Positioning/01-WiFiPositioning.md"
 ---
 ```
 
-### Campos recomendados / Recommended fields
+### Campos / Fields
 
-- `title`: título legible del artículo.
-- `section`: la sección a la que pertenece.
-- `language`: `es` o `en`.
-- `status`: `draft`, `in_review`, `published`, `archived`.
-- `order`: número dentro de la sección.
-- `depth`: `intro`, `intermedio`, `avanzado`.
-- `summary`: frase breve de 1-2 líneas.
-- `prerequisites`: lista de conceptos previos necesarios.
-
-- `title`: readable title of the article.
-- `section`: the section the article belongs to.
-- `language`: `es` or `en`.
-- `status`: `draft`, `in_review`, `published`, `archived`.
-- `order`: article number within the section.
-- `depth`: `intro`, `intermediate`, `advanced`.
-- `summary`: 1-2 sentence summary.
-- `prerequisites`: list of prior concepts needed.
+| Campo / Field | Valor / Value |
+|---|---|
+| `title` | Título legible, en el idioma del artículo / Readable title, in the article's language |
+| `section` | Nombre exacto de la carpeta de sección / Exact section folder name |
+| `language` | `es` · `en` |
+| `status` | `draft` · `in_review` · `published` · `archived` |
+| `order` | El número `NN`, sin ceros a la izquierda / The `NN` number, without leading zeros |
+| `depth` | `intro` · `intermediate` · `advanced` |
+| `summary` | 1-2 frases / 1-2 sentences |
+| `prerequisites` | Lista de conceptos previos / List of prior concepts |
+| `translation` | Ruta relativa a la versión en el otro idioma / Relative path to the other-language version |
 
 ---
 
@@ -193,15 +214,15 @@ prerequisites:
 Los artículos se etiquetan según su estado real:
 
 - `draft`: todavía en proceso de escritura.
-- `in_review`: revisado por el autor o la comunidad.
-- `published`: publicado y enlazado en la navegación principal.
-- `archived`: descartado o reemplazado por otra explicación.
+- `in_review`: escrito y pendiente de revisión.
+- `published`: revisado, con sus dos versiones (ES y EN) y enlazado en el índice.
+- `archived`: descartado o sustituido por otra explicación.
 
-This is the status vocabulary used by the project:
+Articles are labeled by their real status:
 
 - `draft`: still being written.
-- `in_review`: under review.
-- `published`: published and linked in the main navigation.
+- `in_review`: written and awaiting review.
+- `published`: reviewed, with both versions (ES and EN), and linked from the index.
 - `archived`: discarded or replaced by another explanation.
 
 ---
@@ -210,7 +231,7 @@ This is the status vocabulary used by the project:
 
 Si un nombre puede confundirse, es un mal nombre. Si un nombre comunica la pregunta del artículo sin que haya que abrirlo, es un buen nombre.
 
-If a name can be confused, it is a bad name. If the name communicates the article’s question without opening it, it is a good name.
+If a name can be confused, it is a bad name. If the name communicates the article's question without opening it, it is a good name.
 
 ---
 
@@ -218,16 +239,18 @@ If a name can be confused, it is a bad name. If the name communicates the articl
 
 ### Naming rules summary
 
-- Use numbered section folders such as `00_Foundations` or `05_Positioning`.
-- Use file names in the form `NN-TitleInPascalCase.md`.
-- Keep names concise, descriptive, and technical.
-- Never leave spaces or ambiguous labels.
-- Match the section, language, and document title to the article’s topic.
+- Section folders: `NN_Title`, e.g. `docs/ES/05_Geolocalizacion/` and `docs/EN/05_Positioning/`.
+- Article files: `NN-TitleInPascalCase.md`, named in the language of their folder.
+- Each article exists in both `ES` and `EN` with the same `NN`.
+- Root files GitHub recognizes are uppercase (`README.md`, `CHANGELOG.md`, `LICENSE.md`); everything else is PascalCase with a lowercase `.md`.
+- No spaces, accents, or ambiguous labels.
 
 Examples:
 
-- `05-Positioning/01-WiFiPositioning.md`
-- `05-Positioning/02-TrilaterationVsTriangulation.md`
-- `10-SecurityAndCryptography/09-WhatTLSDoesNotProtect.md`
+- `docs/EN/05_Positioning/01-WiFiPositioning.md`
+- `docs/EN/05_Positioning/02-TrilaterationVsTriangulation.md`
+- `docs/EN/10_SecurityAndCryptography/01-WhatTLSDoesNotProtect.md`
 
-[← Volver al índice general / Back to the main index](../docs/Index.md)
+[Volver al español · Back to Spanish](#convención-de-nombres--naming-convention)
+
+[← Volver al índice general / Back to the master index](../docs/Index.md)

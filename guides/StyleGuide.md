@@ -92,17 +92,41 @@ Aquí va la explicación de verdad: señales, capas, protocolos, flujo, tiempos,
 
 This is where the real explanation lives: signals, layers, protocols, flow, timing, physics, limits, and components.
 
-### 5. Límites, excepciones y consecuencias / Limits, exceptions, and impact
+### 5. Límites, excepciones y casos reales / Limits, exceptions, and real-world cases
 
 Es importante explicar qué no hace, qué se complica en casos reales y por qué la idea funciona mejor en teoría que en la práctica.
 
 It is important to explain what it does not do, what becomes complicated in real-world conditions, and why the idea is cleaner in theory than in practice.
 
-### 6. Referencias / References
+### 6. Consecuencias prácticas / Practical consequences
 
-Cada artículo debe cerrar con una lista de referencias primarias o de máxima confianza.
+Por qué importa todo lo anterior para quien usa el aparato o para quien lo diseña.
 
-Every article should end with a list of primary or highly reliable references.
+Why all of the above matters to the person using the device or the person designing it.
+
+### 7. Preguntas frecuentes / Frequently asked questions
+
+Distinciones frente a conceptos parecidos o fáciles de confundir.
+
+Distinctions from similar or easily confused concepts.
+
+### 8. Fuentes / Sources
+
+Cada artículo cierra con una lista de fuentes primarias o de máxima confianza.
+
+Every article ends with a list of primary or highly reliable sources.
+
+Esta estructura es la de la [plantilla de artículo](../templates/ArticleTemplate.md).
+
+This structure is the one in the [article template](../templates/ArticleTemplate.md).
+
+---
+
+## Bilingüismo / Bilingualism
+
+Cada artículo se escribe en español (`docs/ES/`) y en inglés (`docs/EN/`). Las dos versiones dicen lo mismo, con las mismas cifras, diagramas y fuentes; no son traducciones literales, sino el mismo artículo escrito con naturalidad en cada idioma. En español se usa la coma decimal (`2,4 GHz`) y en inglés el punto (`2.4 GHz`).
+
+Every article is written in Spanish (`docs/ES/`) and English (`docs/EN/`). Both versions say the same thing, with the same figures, diagrams, and sources; they are not literal translations but the same article written naturally in each language. Spanish uses a decimal comma (`2,4 GHz`) and English a decimal point (`2.4 GHz`).
 
 ---
 
@@ -124,13 +148,13 @@ Ejemplos:
 
 - `10 ms de retardo`.
 - `2,4 GHz en un enlace de 1 m`.
-- `1,5 V` en una celda de litio.
+- `3,7 V` nominales en una celda de ion-litio.
 
 Examples:
 
 - `10 ms latency`.
 - `2.4 GHz over a 1 m link`.
-- `1.5 V` in a lithium cell.
+- `3.7 V` nominal in a lithium-ion cell.
 
 ### 3. Analogías transparentes / Transparent analogies
 
@@ -206,6 +230,10 @@ Do not jump from intuition to equations without explanation. The progression mus
 
 ## Qué no se hace en este proyecto / What this project does not do
 
+Esta es la frontera del proyecto, también en seguridad: se explica cómo funciona un mecanismo y qué garantiza, nunca cómo vulnerarlo en sistemas ajenos.
+
+This is the project's boundary, including for security: we explain how a mechanism works and what it guarantees, never how to break it on third-party systems.
+
 - no se comparan modelos comerciales;
 - no se recomienda qué comprar;
 - no se escriben “life hacks” ni consejos vagos;
@@ -233,8 +261,9 @@ Antes de publicar un artículo, verifica:
 - [ ] Hay números con unidad cuando corresponden.
 - [ ] Las referencias son verificables.
 - [ ] El texto es breve, claro y directo.
-- [ ] No hay marketing ni llantos de contenido.
+- [ ] No hay lenguaje de marketing ni relleno.
 - [ ] El artículo encaja en la estructura del repositorio.
+- [ ] Existen las dos versiones, ES y EN, con el mismo número y las mismas cifras.
 
 Before publishing an article, verify:
 
@@ -247,6 +276,7 @@ Before publishing an article, verify:
 - [ ] The text is brief, clear, and direct.
 - [ ] There is no marketing or fluff.
 - [ ] The article fits the repository structure.
+- [ ] Both versions, ES and EN, exist with the same number and the same figures.
 
 ---
 
@@ -258,4 +288,6 @@ This project favors precision over style games. A good article in HowThingsTalk 
 
 A good article is not a long essay; it is a precise explanation with the right level of depth.
 
-[← Volver al índice general / Back to the main index](../docs/Index.md)
+[Volver al español · Back to Spanish](#guía-de-estilo--style-guide)
+
+[← Volver al índice general / Back to the master index](../docs/Index.md)

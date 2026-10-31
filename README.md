@@ -6,9 +6,9 @@
 
 *How everyday devices actually work, underneath*
 
-[Índice general](docs/README.md) · [Hoja de ruta](docs/Roadmap.md) · [Guía de estilo](docs/_meta/StyleGuide.md) · [Glosario](docs/99-Reference/01-Glossary.md)
+[Índice general](docs/Index.md) · [Hoja de ruta](docs/RoadMap.md) · [Guía de estilo](guides/StyleGuide.md) · [Glosario](guides/TaxonomyAndGlossary.md) · [Cambios](CHANGELOG.md)
 
-**Español** · [English](#-english)
+**Español** · [English](#english)
 
 </div>
 
@@ -16,147 +16,158 @@
 
 ## ¿Qué es esto?
 
-Este repositorio pretende ser una biblioteca de explicaciones sobre **cómo funcionan por dentro los aparatos que usamos todos los días**: teléfonos, portátiles, auriculares, relojes, altavoces, tarjetas, bombillas, coches.
+Este repositorio pretende ser una biblioteca de explicaciones sobre **cómo funcionan por dentro los aparatos que usamos todos los días**: teléfonos, portátiles, auriculares, relojes, altavoces, tarjetas, bombillas y coches.
 
-Cada una de las entradas responde a **una pregunta concreta y directa** con el detalle necesario para entenderla de verdad, sin quedarse en meras metáforas. El proyecto persigue un doble compromiso deliberado:
+Cada entrada responde a **una pregunta concreta y directa** con el detalle necesario para entenderla de verdad, sin quedarse en meras metáforas. El proyecto persigue un doble compromiso deliberado:
 
-> El pacto con el principiante: Abrir la puerta al conocimiento de forma intuitiva, guiando la lectura sin apoyarse en tecnicismos ni artificios.
+> **El pacto con el principiante:** abrir la puerta al conocimiento de forma intuitiva, guiando la lectura sin apoyarse en tecnicismos ni artificios.
 
-> El pacto con el experto: Garantizar una solidez técnica impecable, libre de imprecisiones o concesiones al rigor.
+> **El pacto con el experto:** garantizar una solidez técnica impecable, libre de imprecisiones y de concesiones al rigor.
 
-Para lograrlo, cada artículo se estructura en **cuatro capas de profundidad diferentes**:
-0. **Pregunta, Encuadre y Profundidad:** Cada artículo parte de la pregunta exacta que intenta resolver, declarando explícitamente la profundidad técnica y los conocimientos previos necesarios para seguirlo sin perderse.
-1. **La Respuesta Corta:** Una única frase contundente que sintetiza la respuesta entera, seguida de un resumen de 60 segundos para quien solo busca la idea general rápida.
-2. **El Modelo Mental:** Una analogía del mundo cotidiano para asentar la intuición, acompañada del punto exacto donde la metáfora se rompe y da paso a la realidad tecnológica.
-3. **El Mecanismo Técnico:** El desglose sin concesiones con diagramas de flujo, tramas de datos, protocolos, espectro de radio y los números físicos reales.
+Para lograrlo, cada artículo se estructura en **cuatro capas de profundidad**:
 
-Quien quiera bajarse a mitad del camino, puede hacerlo en cualquiera de las capas habiendo entendido el núcleo del problema.
+0. **Pregunta, encuadre y profundidad:** cada artículo parte de la pregunta exacta que intenta resolver y declara la profundidad técnica y los conocimientos previos necesarios para seguirlo sin perderse.
+1. **La respuesta corta:** una única frase contundente que sintetiza la respuesta entera, seguida de un resumen de 60 segundos para quien solo busca la idea general.
+2. **El modelo mental:** una analogía del mundo cotidiano para asentar la intuición, acompañada del punto exacto donde la metáfora se rompe y da paso a la realidad tecnológica.
+3. **El mecanismo técnico:** el desglose sin concesiones, con diagramas de flujo, tramas de datos, protocolos, espectro de radio y los números físicos reales.
+
+Quien quiera bajarse a mitad del camino puede hacerlo en cualquiera de las capas habiendo entendido el núcleo del problema.
+
+Cada artículo se escribe en **español y en inglés**: la versión española vive en `docs/ES/` y la inglesa en `docs/EN/`, con el mismo número de orden en ambas carpetas.
 
 ## ¿Qué no es?
 
-- **No es un Blog de Noticias.** Sin lanzamientos ni novedades. Lo que se explica aquí seguirá siendo válido dentro de cinco años.
-- **No es un Sitio de Reseñas.** No se comparan modelos comerciales ni se recomienda qué comprar.
-- **No es un Repositorio de Tutoriales.** No se explica *cómo configurar* algo, sino *por qué funciona*.
-- **No es un Manual de Ingeniería Ofensiva.** Se describen mecanismos de funcionamiento y garantías de seguridad; no se detallan procedimientos para vulnerar sistemas de terceros. La frontera está definida en la [guía de estilo](templates/StyleGuide.md) y se respeta sin excepciones.
+- **No es un blog de noticias.** Sin lanzamientos ni novedades. Lo que se explica aquí seguirá siendo válido dentro de cinco años.
+- **No es un sitio de reseñas.** No se comparan modelos comerciales ni se recomienda qué comprar.
+- **No es un repositorio de tutoriales.** No se explica *cómo configurar* algo, sino *por qué funciona*.
+- **No es un manual de ingeniería ofensiva.** Se describen mecanismos de funcionamiento y garantías de seguridad; no se detallan procedimientos para vulnerar sistemas de terceros. La frontera está definida en la [guía de estilo](guides/StyleGuide.md) y se respeta sin excepciones.
 
-## Preguntas que se responden aquí
+## El tipo de preguntas que responde esta biblioteca
 
-- ¿Cómo sabe mi móvil donde está aunque tenga el GPS apagado y no esté conectado a ninguna red WiFi?
+- ¿Cómo sabe mi móvil dónde está aunque tenga el GPS apagado y no esté conectado a ninguna red WiFi?
 - ¿Qué ocurre exactamente en el espectro radioeléctrico entre mi teléfono y la antena cuando hago una llamada?
 - ¿Por qué protocolo y ruta viaja un archivo al usar AirDrop, y qué lo hace tan rápido comparado con otros métodos?
-- ¿Qué ocurre a nivel físico en las celdas de memoria flash cuando "borro" una foto?
-- ¿Por qué ocurre al activar el micrófono en unos auriculares Bluetooth la calidad del audio cae en picado y suena diferente?
-- ¿Por qué la batería del movil cae drásticamente al 10% cuando estamos a temperaturas bajo cero?
-- ¿Por qué una bombilla inteligente necesita enviar datos a un servidor a 2.000 km para encenderse desde el interruptor de la misma habitación?
-- ¿Qué señales y trames emite exactamente un teléfono en reposo sobre la mesa?
+- ¿Qué ocurre a nivel físico en las celdas de memoria flash cuando «borro» una foto?
+- ¿Por qué, al activar el micrófono en unos auriculares Bluetooth, la calidad del audio cae en picado y suena diferente?
+- ¿Por qué la batería del móvil cae drásticamente al 10 % cuando estamos bajo cero?
+- ¿Por qué una bombilla inteligente necesita enviar datos a un servidor a 2000 km para encenderse desde el interruptor de la misma habitación?
+- ¿Qué señales y tramas emite exactamente un teléfono en reposo sobre la mesa?
 
 ## ¿Por dónde empiezo?
 
-Si es tu primera visita, el punto de entrada recomendado es [Roadmap](docs/Roadmap.md).
-Este artículo aborda la pregunta, el modelo mental, la geometríca y las tramas de radio en un solo texto, estableciendo el nivel de profundidad técnica al que aspira toda la biblioteca.
-A partir de ahí, puedes consultar el [indice general](docs/Index.md), que organiza la lectura en diferentes itinerarios temáticos.
+La biblioteca está en fase de estructura: todavía no hay artículos publicados. El punto de entrada es el [índice general](docs/Index.md), que organiza las secciones y se irá llenando a medida que se publiquen artículos. La [hoja de ruta](docs/RoadMap.md) recoge lo publicado y lo que está en curso.
 
 ## Estructura
 
-```
+```text
 HowThingsTalk/
-├── docs
-|    ├── EN
-|    |   ├── 00_Foundations
-|    |   ├── 01_WiFiNetworks
-|    |   ├── 02_CellularNetworks
-|    |   ├── 03_ShortRangeRadio
-|    |   ├── 04_DataTransfer
-|    |   ├── 05_Positioning
-|    |   ├── 06_Storage
-|    |   ├── 07_AudioAndPeripherals
-|    |   ├── 08_PowerAndBatteries
-|    |   ├── 09_IOT
-|    |   ├── 10_SecurityAndCryptography
-|    |   ├── 11_PrivacyAndFootprint
-|    |   └── 99_Reference
-|    ├── ES
-|    |   ├── 00_Fundamentos
-|    |   ├── 01_RedesWiFi
-|    |   ├── 02_RedesMoviles
-|    |   ├── 03_CortoAlcance
-|    |   ├── 04_TransferenciaDeDatos
-|    |   ├── 05_Geolocalizacion
-|    |   ├── 06_Almacenamiento
-|    |   ├── 07_AudioYPerifericos
-|    |   ├── 08_EnergiaYBaterias
-|    |   ├── 09_IOT
-|    |   ├── 10_SeguridadYCriptografia
-|    |   ├── 11_PrivacidadYHuella
-|    |   └── 99_Referencia
-|    ├── Index.md
-|    └── RoadMap.md
-├── guides
-|    ├── ContributionGuide.md
-|    ├── NamingConvention.md
-|    ├── StyleGuide.md
-|    └── TaxonomyAndGlosary.md
-├── templates
-|    └── ArticuleTemplate.md
-└── Readme.md
+├── docs/
+│   ├── ES/
+│   │   ├── 00_Fundamentos/
+│   │   ├── 01_RedesWiFi/
+│   │   ├── 02_RedesMoviles/
+│   │   ├── 03_CortoAlcance/
+│   │   ├── 04_TransferenciaDeDatos/
+│   │   ├── 05_Geolocalizacion/
+│   │   ├── 06_Almacenamiento/
+│   │   ├── 07_AudioYPerifericos/
+│   │   ├── 08_EnergiaYBaterias/
+│   │   ├── 09_IOT/
+│   │   ├── 10_SeguridadYCriptografia/
+│   │   ├── 11_PrivacidadYHuella/
+│   │   └── 99_Referencia/
+│   ├── EN/
+│   │   ├── 00_Foundations/
+│   │   ├── 01_WiFiNetworks/
+│   │   ├── 02_CellularNetworks/
+│   │   ├── 03_ShortRangeRadio/
+│   │   ├── 04_DataTransfer/
+│   │   ├── 05_Positioning/
+│   │   ├── 06_Storage/
+│   │   ├── 07_AudioAndPeripherals/
+│   │   ├── 08_PowerAndBatteries/
+│   │   ├── 09_IOT/
+│   │   ├── 10_SecurityAndCryptography/
+│   │   ├── 11_PrivacyAndFootprint/
+│   │   └── 99_Reference/
+│   ├── Index.md
+│   └── RoadMap.md
+├── guides/
+│   ├── ContributionGuide.md
+│   ├── NamingConvention.md
+│   ├── StyleGuide.md
+│   └── TaxonomyAndGlossary.md
+├── templates/
+│   └── ArticleTemplate.md
+├── CHANGELOG.md
+├── LICENSE.md
+└── README.md
 ```
-Las secciones siguen un orden ascendente: desde los fundamentos en la base, pasando por los protocolos, hasta culminar en sus consecuencias. Cada artículo especifica sus prerrequisitos en la cabecera, si algún concepto se resiste, el contexto necesario está a un solo clic.
-Tanto la estructura de carpetas, como la de archivos y artículosutiliza el formato CamelCase, además, se promoverá siempre que los artículos y documentos de la "Biblioteca" se encuentren en formato bilingüe. Para conocer más sobre la motivación y las reglas detalladas, puedes consultar el siguiente [documento](guides/NamingConvention.md).
+
+Las secciones siguen un orden ascendente: desde los fundamentos en la base, pasando por los protocolos, hasta culminar en sus consecuencias. Cada artículo especifica sus prerrequisitos en la cabecera; si algún concepto se resiste, el contexto necesario está a un solo clic.
+
+Las carpetas y los archivos usan PascalCase, sin espacios, tildes ni eñes, y cada artículo existe en las dos lenguas. La motivación y las reglas detalladas están en la [convención de nombres](guides/NamingConvention.md).
 
 ## Estado
 
-| Sección | Artículos Previstos | Artículos Escritos |
-|---|---|---|
-| 00 - Fundamentos | X | Y |
-| 01 - Redes WiFi | X | Y |
-| 02 - Redes Móviles | X | Y |
-| 03 - Corto Alcance | X | Y |
-| 04 - Transferencia de Datos | X | Y |
-| 05 - Geolocalización | X | Y |
-| 06 - Almacenamiento | X | Y |
-| 07 - Audio y Periféricos | X | Y |
-| 08 - Energía y Baterias | X | Y |
-| 09 - IOT (Internet of Things) | X | Y |
-| 10 - Seguridad y Criptografía | X | Y |
-| 11 - Privacidad y Huella | X | Y |
+<sub>Se recalcula automáticamente a partir de los archivos reales. El detalle está en la [hoja de ruta](docs/RoadMap.md).</sub>
+
+| Sección | Artículos publicados |
+|---|---|
+| 00 · Fundamentos | 0 |
+| 01 · Redes WiFi | 0 |
+| 02 · Redes Móviles | 0 |
+| 03 · Corto Alcance | 0 |
+| 04 · Transferencia de Datos | 0 |
+| 05 · Geolocalización | 0 |
+| 06 · Almacenamiento | 0 |
+| 07 · Audio y Periféricos | 0 |
+| 08 · Energía y Baterías | 0 |
+| 09 · IoT y Smart Home | 0 |
+| 10 · Seguridad y Criptografía | 0 |
+| 11 · Privacidad y Huella | 0 |
+| 99 · Referencia | 0 |
+| **Total** | **0** |
 
 ## ¿Cómo se escribe aquí?
 
-La normativa completa se encuentra en el siguiente [documento](/guides/NamingConvention.md). Que en esencia son:
+La normativa completa está en la [guía de estilo](guides/StyleGuide.md). En esencia:
 
-- **Concisión:** Priorizaremos frases breves. Si hay más de tres comas, probablmente podamos dividir la idea en dos frases.
-- **Contexto Cuantitativo:** Todo dato exige su unidad, su escenario y contexto exacto.
-- **Analogías Transparentes:** Máximo una por concepto, mostrando siempre sus límites teóricos.
-- **Jerarquía de Fuentes:** Acudiremos a los estándares primarios (IEEE, 3GPP, Bluetooth SIG, RFC), pasa por los fabricantes y recurre a la literatura científica. Quedan excluidas las fuentas de segunda mano.
-- **Honestidad Técnica:** Ante la ausencia de fuente comprobable, marcaremos el dato como "no verificado". La transparencia siempre supera a la especulación.
+- **Concisión:** priorizamos frases breves. Si hay más de tres comas, probablemente podamos dividir la idea en dos frases.
+- **Contexto cuantitativo:** todo dato exige su unidad, su escenario y su contexto exacto.
+- **Analogías transparentes:** máximo una por concepto, mostrando siempre sus límites.
+- **Jerarquía de fuentes:** acudimos primero a los estándares primarios (IEEE, 3GPP, Bluetooth SIG, RFC), después a la documentación de los fabricantes y a la literatura científica revisada. Quedan excluidas las fuentes de segunda mano.
+- **Honestidad técnica:** ante la ausencia de fuente comprobable, marcamos el dato como «no verificado». La transparencia siempre supera a la especulación.
 
 ## Contribuir
 
-El proyecto está abierto a correcciones, datos actualizados y nuevo contenido.
+El proyecto está abierto a correcciones, datos actualizados y contenido nuevo. El proceso completo está en la [guía de contribución](guides/ContributionGuide.md).
 
-- **Propuestas y Errores:** Abre un issue detallando la sugerencia o el hallazgo.
-- **Requisito de Verificación:** Toda corrección debe incluir la fuente que la fundamenta. Sin una referencia contrastable, la modificación no podrá ser integrada.
+- **Propuestas y errores:** abre un issue detallando la sugerencia o el hallazgo.
+- **Requisito de verificación:** toda corrección debe incluir la fuente que la fundamenta. Sin una referencia contrastable, la modificación no podrá integrarse.
 
-Para crear, sugerir o escribir un artículo deberemos seguir los siguientes pasos:
-1. Comprueba en la [hoja de ruta](docs/RoadMap.md) que no esté en proceso o realizado.
-2. Copia la [plantilla](templates/ArticuleTemplate.md) y pegala en la carpeta que toque.
-3. Ahora renombraremos el archivo según la [convención](guides/NamingConvention.md).
-4. Revisa la [guia de estilo](guides/StyleGuide.md) antes de empezar, esto te ahorrará un tiempo valioso en revisiones.
-5. Redacta el artículo dedicándole todo el tiempo que necesites, debes saber que el rigor prima sobre la prisa.
-6. Enlaza en el artículo que creaste en el [índice](docs/Index.md). Así podremos encontrarlo disponible al buscar documentos.
-7. Finalmente, envía tu *pull request*.
+Para escribir un artículo:
+
+1. Comprueba en la [hoja de ruta](docs/RoadMap.md) que no esté en curso ni publicado.
+2. Copia la [plantilla](templates/ArticleTemplate.md): la parte española en `docs/ES/<sección>/` y la inglesa en `docs/EN/<sección>/`.
+3. Nombra los dos archivos según la [convención de nombres](guides/NamingConvention.md), con el mismo número de orden.
+4. Revisa la [guía de estilo](guides/StyleGuide.md) antes de empezar; te ahorrará tiempo en revisiones.
+5. Redacta el artículo dedicándole todo el tiempo que necesites: el rigor prima sobre la prisa.
+6. Enlaza las dos versiones en el [índice](docs/Index.md) para que se puedan encontrar.
+7. Envía tu *pull request*.
 
 ## Licencia
 
 | Qué | Licencia |
 |---|---|
-| Texto, Imágenes y Diagramas | [CC BY-SA 4.0](LICENSE) |
-| Fragmentos de Código y Scripts | MIT |
-| Estándares y Papers Citados | De sus autores. Aquí solo se enlazan, no se redistribuyen. |
+| Texto, imágenes y diagramas | [CC BY-SA 4.0](LICENSE.md) |
+| Fragmentos de código y scripts | [MIT](LICENSE.md) |
+| Estándares y artículos citados | De sus autores. Aquí solo se enlazan, no se redistribuyen. |
 
 Puedes copiar, adaptar y republicar el contenido citando la fuente y manteniendo la misma licencia.
 
 ---
+
 ## English
 
 <details>
@@ -164,155 +175,159 @@ Puedes copiar, adaptar y republicar el contenido citando la fuente y manteniendo
 
 <br>
 
-> **Note on language.** Articles are written in Spanish. Titles, folder names, section
-> indexes and this document are bilingual, so you can navigate the repository and judge
-> whether a machine translation is worth it. There is no plan to translate the articles
-> themselves for now — see [Roadmap](docs/Roadmap.md), *Discarded*.
-
----
-
 ### What is this?
 
-This repository aims to be a comprehensive reference library explaining how the everyday devices we use actually work under the hood: smartphones, laptops, earbuds, smartwatches, speakers, smart cards, lightbulbs, and connected cars.
+This repository aims to be a reference library explaining how the everyday devices we use actually work under the hood: smartphones, laptops, earbuds, smartwatches, speakers, smart cards, lightbulbs and connected cars.
 
-Every article tackles one specific, direct question with the exact depth required for genuine understanding, going far beyond surface-level metaphors. This project is built on a deliberate dual commitment:
+Every article tackles one specific, direct question with the exact depth required for genuine understanding, going beyond surface-level metaphors. The project is built on a deliberate dual commitment:
 
-> The Beginner's Pact: Opening the door to technical knowledge intuitively, guiding the reader step-by-step without relying on obscure jargon or artificial fluff.
+> **The beginner's pact:** opening the door to technical knowledge intuitively, guiding the reader step by step without relying on obscure jargon or artificial fluff.
 
-> The Expert's Pact: Guaranteeing uncompromising technical precision, completely free of inaccuracies or concessions to rigor.
+> **The expert's pact:** guaranteeing uncompromising technical precision, free of inaccuracies or concessions to rigor.
 
-To achieve this, every entry is structured into four distinct layers of depth:
-0. **Question, Framing, and Depth:** Each article begins with the exact problem it aims to solve, explicitly stating its technical scope and the prerequisite knowledge required to follow along without getting lost.
-1. **The Short Answer:** A single punchy sentence summarizing the entire core convept, followed by a 60-second summary for anyone seeking a quick high-level overview.
-2. **The Mental Model:** An everyday real-world analogy to establish intuition, accompanied by the precise boundary where the metaphor breaks down and yields to technological reality.
-3. **The Technical Inner Workings:** An uncompromising deep dive featuring flowcharts, data frames, protocol stack breakdowns, RF spectrum behavior, and physical constants.
+To achieve this, every entry is structured into **four layers of depth**:
 
-Readers can exit at any layer along the way while still walking away with a solid grasp of the core issue.
+0. **Question, framing and depth:** each article begins with the exact problem it aims to solve, explicitly stating its technical scope and the prerequisite knowledge required to follow along.
+1. **The short answer:** a single punchy sentence summarizing the core concept, followed by a 60-second summary for anyone seeking a quick overview.
+2. **The mental model:** an everyday analogy to establish intuition, together with the precise point where the metaphor breaks down and yields to technological reality.
+3. **The technical mechanism:** an uncompromising deep dive with flowcharts, data frames, protocol stacks, RF spectrum behavior and real physical figures.
 
-## What is this not?
+Readers can stop at any layer and still walk away with a solid grasp of the core issue.
 
-- **Not a News Blog.** No product launches, leaks, or breaking news. The mechanics explained here will remain valid five years from now.
-- **Not a Review Site.** No commercial side-by-side comparisons or purchasing guides.
-- **Not a How-To Repository.** We don't cover how to configure a system, but why it works under the hood.
-- **Not an Offensive Security Manual.** We break down operational mechanisms and security guarantees, we do not publish exploitation walkthroughs against third-party systems. This boundatary is strictly defined in our [style guide](templates/StyleGuide.md) and enforced without exception.
+Every article is written in **Spanish and English**: the Spanish version lives in `docs/ES/` and the English one in `docs/EN/`, with the same order number in both folders.
 
-## Questions Answered Here
+### What is this not?
 
-- How does my phone know its precise location even with GPS turned off and no active Wi-Fi connections?
-- What exactly transpires across the radio spectrum between my handset and the cell tower during a call?
-- Which protocols and network routes carry a file via AirDrop, and why is it so much faster than alternative methods?
+- **Not a news blog.** No product launches, leaks or breaking news. The mechanics explained here will remain valid five years from now.
+- **Not a review site.** No commercial comparisons or buying guides.
+- **Not a how-to repository.** We don't cover how to configure a system, but why it works.
+- **Not an offensive security manual.** We explain operating mechanisms and security guarantees; we do not publish exploitation walkthroughs against third-party systems. This boundary is defined in the [style guide](guides/StyleGuide.md) and enforced without exception.
+
+### The kind of questions this library answers
+
+- How does my phone know where it is even with GPS turned off and no WiFi connection?
+- What exactly happens across the radio spectrum between my handset and the cell tower during a call?
+- Which protocols and routes carry a file via AirDrop, and why is it so much faster than other methods?
 - What happens at the physical level inside flash memory cells when I "delete" a photo?
-- Why does audio quality plummet and sound completely different the moment I activate the microphone on Bluetooth earbuds?
-- Why does phone battery capacity collapse so abruptly toward 10% when exposed to sub-zero temperatures?
-- Why must a smart lightbulb route data to a server 2,000 km away just to toggle on from a switch in the same room?
-- What raw signals and frames does an idle smartphone continuously broadcast while sitting on a table?
+- Why does audio quality plummet the moment I turn on the microphone on Bluetooth earbuds?
+- Why does a phone battery collapse abruptly around 10% in sub-zero temperatures?
+- Why must a smart lightbulb send data to a server 2,000 km away just to turn on from a switch in the same room?
+- What signals and frames does an idle smartphone broadcast while sitting on a table?
 
-## Where do I Start?
+### Where do I start?
 
-If this is your first visit, the recommended entry point is the [Roadmap](docs/Roadmap.md).
-This baseline article covers the problem framing, mental model, geometric principles, and RF frames in a single unified text, establishing the target technical depth for the entire library. From there, feel free to navigate the [index](docs/Index.md), which organizes articles into curated learning paths.
+The library is in its structural phase: no articles have been published yet. The entry point is the [master index](docs/Index.md), which organizes the sections and will fill up as articles are published. The [roadmap](docs/RoadMap.md) lists what has been published and what is in progress.
 
-## Structure
+### Structure
 
-```
+```text
 HowThingsTalk/
-├── docs
-|    ├── EN
-|    |   ├── 00_Foundations
-|    |   ├── 01_WiFiNetworks
-|    |   ├── 02_CellularNetworks
-|    |   ├── 03_ShortRangeRadio
-|    |   ├── 04_DataTransfer
-|    |   ├── 05_Positioning
-|    |   ├── 06_Storage
-|    |   ├── 07_AudioAndPeripherals
-|    |   ├── 08_PowerAndBatteries
-|    |   ├── 09_IOT
-|    |   ├── 10_SecurityAndCryptography
-|    |   ├── 11_PrivacyAndFootprint
-|    |   └── 99_Reference
-|    ├── ES
-|    |   ├── 00_Fundamentos
-|    |   ├── 01_RedesWiFi
-|    |   ├── 02_RedesMoviles
-|    |   ├── 03_CortoAlcance
-|    |   ├── 04_TransferenciaDeDatos
-|    |   ├── 05_Geolocalizacion
-|    |   ├── 06_Almacenamiento
-|    |   ├── 07_AudioYPerifericos
-|    |   ├── 08_EnergiaYBaterias
-|    |   ├── 09_IOT
-|    |   ├── 10_SeguridadYCriptografia
-|    |   ├── 11_PrivacidadYHuella
-|    |   └── 99_Referencia
-|    ├── Index.md
-|    └── RoadMap.md
-├── guides
-|    ├── ContributionGuide.md
-|    ├── NamingConvention.md
-|    ├── StyleGuide.md
-|    └── TaxonomyAndGlosary.md
-├── templates
-|    └── ArticuleTemplate.md
-└── Readme.md
+├── docs/
+│   ├── ES/
+│   │   ├── 00_Fundamentos/
+│   │   ├── 01_RedesWiFi/
+│   │   ├── 02_RedesMoviles/
+│   │   ├── 03_CortoAlcance/
+│   │   ├── 04_TransferenciaDeDatos/
+│   │   ├── 05_Geolocalizacion/
+│   │   ├── 06_Almacenamiento/
+│   │   ├── 07_AudioYPerifericos/
+│   │   ├── 08_EnergiaYBaterias/
+│   │   ├── 09_IOT/
+│   │   ├── 10_SeguridadYCriptografia/
+│   │   ├── 11_PrivacidadYHuella/
+│   │   └── 99_Referencia/
+│   ├── EN/
+│   │   ├── 00_Foundations/
+│   │   ├── 01_WiFiNetworks/
+│   │   ├── 02_CellularNetworks/
+│   │   ├── 03_ShortRangeRadio/
+│   │   ├── 04_DataTransfer/
+│   │   ├── 05_Positioning/
+│   │   ├── 06_Storage/
+│   │   ├── 07_AudioAndPeripherals/
+│   │   ├── 08_PowerAndBatteries/
+│   │   ├── 09_IOT/
+│   │   ├── 10_SecurityAndCryptography/
+│   │   ├── 11_PrivacyAndFootprint/
+│   │   └── 99_Reference/
+│   ├── Index.md
+│   └── RoadMap.md
+├── guides/
+│   ├── ContributionGuide.md
+│   ├── NamingConvention.md
+│   ├── StyleGuide.md
+│   └── TaxonomyAndGlossary.md
+├── templates/
+│   └── ArticleTemplate.md
+├── CHANGELOG.md
+├── LICENSE.md
+└── README.md
 ```
-The sections follow a bottom-up architecture: moving from core physical foundations at the base, ascending through protocols, and culminating in real-world implications. Every article declares its required background knowledge in its header, if a concept feels daunting, the necessary prerequisite context is always a single click away.
-All directory trees, filenames, and article paths strictly enforce CamelCase. Furthermore, all articles and reference documents across the library are maintained in a bilingual format. To dive deeper into the design philosophy and full ruleset, check out our [document](guides/NamingConvention.md).
 
-## sTATE
+Sections follow a bottom-up order: from the physical foundations at the base, through protocols, up to their real-world consequences. Every article declares its prerequisites in its header; if a concept feels daunting, the necessary context is one click away.
 
-| Section | Planned Articles | Writed Articles |
-|---|---|---|
-| 00 - Foundations | X | Y |
-| 01 - WiFi Networks | X | Y |
-| 02 - Cellular Networks | X | Y |
-| 03 - Short-Range Radio | X | Y |
-| 04 - Data Transfer | X | Y |
-| 05 - Positioning | X | Y |
-| 06 - Storage | X | Y |
-| 07 - Audio and Peripherals | X | Y |
-| 08 - Power and Batteries | X | Y |
-| 09 - IOT (Internet of Things) | X | Y |
-| 10 - Security and Cryptography | X | Y |
-| 11 - Privacy and Footprint | X | Y |
+Folders and files use PascalCase, with no spaces or accented characters, and every article exists in both languages. The rationale and full ruleset are in the [naming convention](guides/NamingConvention.md).
 
-## How We Write
+### Status
 
-Our full editorial standards live in the following [document](/guides/NamingConvention.md). In short:
+<sub>Recalculated automatically from the actual files. Details in the [roadmap](docs/RoadMap.md).</sub>
 
-- **Conciseness:** We prioritize short, crisp sentences. If a sentence packs more than three commas, it should probably be split into two.
-- **Quantitative Context:** Every data point demands its unit of measurement, test scenario, and precise environment.
-- **Transparent Analogies:** Maximum one metaphor per concept, explicitly marking where its physical validity ends.
-- **Primary Sources First:** We cite primary standards bodies first (IEEE, 3GPP, Bluetooth SIG, RFCs), followed by vendor engineering documentation and peer-reviewed literature. Secondary blogs and rewrites are strictly excluded.
-- **Technical Honesty:** If an original primary source cannot be verified, we label the data point as "unverified". Transparent gaps are infinitely better than speculation.
+| Section | Published articles |
+|---|---|
+| 00 · Foundations | 0 |
+| 01 · WiFi Networks | 0 |
+| 02 · Cellular Networks | 0 |
+| 03 · Short-Range Radio | 0 |
+| 04 · Data Transfer | 0 |
+| 05 · Positioning | 0 |
+| 06 · Storage | 0 |
+| 07 · Audio and Peripherals | 0 |
+| 08 · Power and Batteries | 0 |
+| 09 · IoT and Smart Home | 0 |
+| 10 · Security and Cryptography | 0 |
+| 11 · Privacy and Footprint | 0 |
+| 99 · Reference | 0 |
+| **Total** | **0** |
 
-## Contributing
+### How we write
 
-This project welcomes community contributors, error reports, data updates, and new articles.
+The full editorial rules are in the [style guide](guides/StyleGuide.md). In short:
 
-- **Suggestions and Issues:** Open an issue detailing your proposed topic or bug report.
-- **Verification Rule:** Every fix or correction must cite its supporting primary source. Unverified modifications will not be merged.
+- **Conciseness:** we prioritize short sentences. If a sentence has more than three commas, it should probably be split in two.
+- **Quantitative context:** every data point carries its unit, scenario and exact context.
+- **Transparent analogies:** at most one per concept, always marking where it stops being valid.
+- **Source hierarchy:** primary standards first (IEEE, 3GPP, Bluetooth SIG, RFCs), then vendor documentation and peer-reviewed literature. Second-hand sources are excluded.
+- **Technical honesty:** if a data point cannot be verified against a source, it is labeled "unverified". Transparency always beats speculation.
 
-To propose, draft, or submit a new article, follow this workflow:
-1. Check the [roadmap](docs/RoadMap.md) to ensure is not already claimed or in progress.
-2. Copy [template](templates/ArticuleTemplate.md) into the target topic folder.
-3. Rename the file following our [naming rules](guides/NamingConvention.md).
-4. Review the [style guide](guides/StyleGuide.md) beforehand, it saves substantial review cycle time.
-5. Take all the time you need to write the piece; engineering accuracy always takes priority over speed.
-6. Link your newly created article inside the main [index](docs/Index.md) so readers can find it.
+### Contributing
+
+The project welcomes corrections, updated data and new content. The full process is in the [contribution guide](guides/ContributionGuide.md).
+
+- **Suggestions and issues:** open an issue describing the proposal or the finding.
+- **Verification rule:** every correction must cite its supporting source. Changes without a verifiable reference will not be merged.
+
+To write an article:
+
+1. Check the [roadmap](docs/RoadMap.md) to make sure it is not in progress or already published.
+2. Copy the [template](templates/ArticleTemplate.md): the Spanish part into `docs/ES/<section>/` and the English part into `docs/EN/<section>/`.
+3. Name both files following the [naming convention](guides/NamingConvention.md), with the same order number.
+4. Read the [style guide](guides/StyleGuide.md) first; it saves review time.
+5. Take all the time you need: accuracy always takes priority over speed.
+6. Link both versions from the [index](docs/Index.md) so readers can find them.
 7. Submit your *pull request*.
 
-## License
+### License
 
 | Asset | License |
 |---|---|
-| Prose, Images & Diagrams | [CC BY-SA 4.0](LICENSE) |
-| Code Snippets & Scripts | MIT |
-| Cited Standards & Papers | Held by their respective copyright holders. Linked for reference, not redistributed. |
+| Prose, images and diagrams | [CC BY-SA 4.0](LICENSE.md) |
+| Code snippets and scripts | [MIT](LICENSE.md) |
+| Cited standards and papers | Held by their authors. Linked for reference, not redistributed. |
 
-You are free to copy, adapt, and redistribute this material provided you attribute the source and distribute contributions under the same license.
+You are free to copy, adapt and republish this material provided you credit the source and keep the same license.
 
-[🇪🇸 Volver al español](#howthingstalk)
+[Volver al español · Back to Spanish](#howthingstalk)
 
 </details>
 
