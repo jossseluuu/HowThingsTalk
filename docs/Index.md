@@ -37,7 +37,7 @@ The library follows a progression from fundamentals to security and privacy impl
 
 | Sección / Section | En revisión / In review | Publicados / Published | Estado / Status |
 |---|---|---|---|
-| 00 · Fundamentos / Foundations | 0 | 0 | Sin artículos / No articles |
+| 00 · Fundamentos / Foundations | 0 | 1 | Publicada / Published |
 | 01 · Redes WiFi / WiFi Networks | 0 | 0 | Sin artículos / No articles |
 | 02 · Redes Móviles / Cellular Networks | 0 | 0 | Sin artículos / No articles |
 | 03 · Corto Alcance / Short-Range Radio | 0 | 0 | Sin artículos / No articles |
@@ -57,8 +57,10 @@ The library follows a progression from fundamentals to security and privacy impl
 
 ### 00 · Fundamentos / Foundations
 
-- [ES · `00_Fundamentos`](ES/00_Fundamentos/) — _(sin artículos todavía)_
-- [EN · `00_Foundations`](EN/00_Foundations/) — _(no articles yet)_
+- [ES · `00_Fundamentos`](ES/00_Fundamentos/)
+  - 01 · [¿Por qué una señal de radio de más frecuencia llega menos lejos?](ES/00_Fundamentos/01-PorQueMasFrecuenciaLlegaMenosLejos.md)
+- [EN · `00_Foundations`](EN/00_Foundations/)
+  - 01 · [Why does a higher-frequency radio signal reach a shorter distance?](EN/00_Foundations/01-WhyHigherFrequenciesReachLess.md)
 
 ### 01 · Redes WiFi / WiFi Networks
 

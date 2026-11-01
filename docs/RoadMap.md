@@ -13,7 +13,7 @@
 <sub>Tablas compartidas por las dos versiones. Son fechas, rutas y números: se leen igual en cualquier idioma y se actualizan en un solo sitio.<br>
 <i>Shared by both language versions. Dates, paths and numbers read the same either way, and are updated in exactly one place.</i></sub>
 
-**Publicados · Published:** 0 artículos · *0 articles*
+**Publicados · Published:** 1 artículo · *1 article*
 
 La biblioteca está en fase de estructura: existen las carpetas de las trece secciones en `docs/ES/` y `docs/EN/`, pero todavía no hay ningún artículo publicado. Cada artículo se publica en las dos lenguas, con el mismo número de orden en ambas carpetas.
 
@@ -23,7 +23,7 @@ La biblioteca está en fase de estructura: existen las carpetas de las trece sec
 
 | Sección · Section | Carpetas · Folders | En revisión · In review | Publicados · Published |
 |---|---|---|---|
-| 00 · Fundamentos · Foundations | `00_Fundamentos` · `00_Foundations` | 0 | 0 |
+| 00 · Fundamentos · Foundations | `00_Fundamentos` · `00_Foundations` | 0 | 1 |
 | 01 · Redes WiFi · WiFi Networks | `01_RedesWiFi` · `01_WiFiNetworks` | 0 | 0 |
 | 02 · Redes Móviles · Cellular Networks | `02_RedesMoviles` · `02_CellularNetworks` | 0 | 0 |
 | 03 · Corto Alcance · Short-Range Radio | `03_CortoAlcance` · `03_ShortRangeRadio` | 0 | 0 |
@@ -36,7 +36,7 @@ La biblioteca está en fase de estructura: existen las carpetas de las trece sec
 | 10 · Seguridad y Criptografía · Security and Cryptography | `10_SeguridadYCriptografia` · `10_SecurityAndCryptography` | 0 | 0 |
 | 11 · Privacidad y Huella · Privacy and Footprint | `11_PrivacidadYHuella` · `11_PrivacyAndFootprint` | 0 | 0 |
 | 99 · Referencia · Reference | `99_Referencia` · `99_Reference` | 0 | 0 |
-| **Total** | | **0** | **0** |
+| **Total** | | **0** | **1** |
 
 ### 🔨 En curso · In progress
 
@@ -50,7 +50,7 @@ La biblioteca está en fase de estructura: existen las carpetas de las trece sec
 
 | Fecha · Date | Artículo · Article | Sección · Section |
 |---|---|---|
-| _(vacío · empty)_ | | |
+| 2026-10-31 | [¿Por qué una señal de radio de más frecuencia llega menos lejos?](ES/00_Fundamentos/01-PorQueMasFrecuenciaLlegaMenosLejos.md) · [Why does a higher-frequency radio signal reach a shorter distance?](EN/00_Foundations/01-WhyHigherFrequenciesReachLess.md) | 00 · Fundamentos · Foundations |
 
 <sub>Esta tabla es la que hace visible que el proyecto avanza. No la borres nunca. · <i>This table is what shows the project is moving. Never delete it.</i></sub>
 

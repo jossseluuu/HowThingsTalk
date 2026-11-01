@@ -8,6 +8,12 @@ Formato basado en / Format based on [Keep a Changelog](https://keepachangelog.co
 
 ---
 
+## 2026-10-31 · Revisión automática · Automated review
+
+### Añadido · Added
+
+- Artículo «¿Por qué una señal de radio de más frecuencia llega menos lejos?» ([`docs/ES/00_Fundamentos/01-PorQueMasFrecuenciaLlegaMenosLejos.md`](docs/ES/00_Fundamentos/01-PorQueMasFrecuenciaLlegaMenosLejos.md)) · Article "Why does a higher-frequency radio signal reach a shorter distance?" ([`docs/EN/00_Foundations/01-WhyHigherFrequenciesReachLess.md`](docs/EN/00_Foundations/01-WhyHigherFrequenciesReachLess.md)).
+
 ## 2026-10-31 · Repaso de coherencia · Coherence pass
 
 ### Añadido · Added
