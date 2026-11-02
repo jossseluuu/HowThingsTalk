@@ -8,6 +8,12 @@ Formato basado en / Format based on [Keep a Changelog](https://keepachangelog.co
 
 ---
 
+## 2026-11-02 · Revisión automática · Automated review
+
+### Añadido · Added
+
+- Artículo «¿Qué decide cuántos bits por segundo caben en una señal de radio?» ([`docs/ES/00_Fundamentos/02-QueDecideLaVelocidadDeUnEnlaceDeRadio.md`](docs/ES/00_Fundamentos/02-QueDecideLaVelocidadDeUnEnlaceDeRadio.md)) · Article "What decides how many bits per second a radio signal can carry?" ([`docs/EN/00_Foundations/02-WhatSetsTheSpeedOfARadioLink.md`](docs/EN/00_Foundations/02-WhatSetsTheSpeedOfARadioLink.md)).
+
 ## 2026-10-31 · Revisión automática · Automated review
 
 ### Añadido · Added

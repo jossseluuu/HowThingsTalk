@@ -37,7 +37,7 @@ The library follows a progression from fundamentals to security and privacy impl
 
 | Sección / Section | En revisión / In review | Publicados / Published | Estado / Status |
 |---|---|---|---|
-| 00 · Fundamentos / Foundations | 0 | 1 | Publicada / Published |
+| 00 · Fundamentos / Foundations | 0 | 2 | Publicada / Published |
 | 01 · Redes WiFi / WiFi Networks | 0 | 0 | Sin artículos / No articles |
 | 02 · Redes Móviles / Cellular Networks | 0 | 0 | Sin artículos / No articles |
 | 03 · Corto Alcance / Short-Range Radio | 0 | 0 | Sin artículos / No articles |
@@ -59,8 +59,10 @@ The library follows a progression from fundamentals to security and privacy impl
 
 - [ES · `00_Fundamentos`](ES/00_Fundamentos/)
   - 01 · [¿Por qué una señal de radio de más frecuencia llega menos lejos?](ES/00_Fundamentos/01-PorQueMasFrecuenciaLlegaMenosLejos.md)
+  - 02 · [¿Qué decide cuántos bits por segundo caben en una señal de radio?](ES/00_Fundamentos/02-QueDecideLaVelocidadDeUnEnlaceDeRadio.md)
 - [EN · `00_Foundations`](EN/00_Foundations/)
   - 01 · [Why does a higher-frequency radio signal reach a shorter distance?](EN/00_Foundations/01-WhyHigherFrequenciesReachLess.md)
+  - 02 · [What decides how many bits per second a radio signal can carry?](EN/00_Foundations/02-WhatSetsTheSpeedOfARadioLink.md)
 
 ### 01 · Redes WiFi / WiFi Networks
 
