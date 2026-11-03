@@ -8,6 +8,12 @@ Formato basado en / Format based on [Keep a Changelog](https://keepachangelog.co
 
 ---
 
+## 2026-11-03 · Revisión automática · Automated review
+
+### Añadido · Added
+
+- Artículo «¿Cómo puede un auricular quitar ruido emitiendo más sonido?» ([`docs/ES/07_AudioYPerifericos/01-ComoQuitaRuidoUnAuricular.md`](docs/ES/07_AudioYPerifericos/01-ComoQuitaRuidoUnAuricular.md)) · Article "How can headphones remove noise by playing more sound?" ([`docs/EN/07_AudioAndPeripherals/01-HowHeadphonesCancelNoise.md`](docs/EN/07_AudioAndPeripherals/01-HowHeadphonesCancelNoise.md)).
+
 ## 2026-11-02 · Revisión automática · Automated review
 
 ### Añadido · Added

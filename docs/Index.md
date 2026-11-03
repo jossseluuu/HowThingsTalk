@@ -44,7 +44,7 @@ The library follows a progression from fundamentals to security and privacy impl
 | 04 · Transferencia de Datos / Data Transfer | 0 | 0 | Sin artículos / No articles |
 | 05 · Geolocalización / Positioning | 0 | 0 | Sin artículos / No articles |
 | 06 · Almacenamiento / Storage | 0 | 0 | Sin artículos / No articles |
-| 07 · Audio y Periféricos / Audio and Peripherals | 0 | 0 | Sin artículos / No articles |
+| 07 · Audio y Periféricos / Audio and Peripherals | 0 | 1 | Publicada / Published |
 | 08 · Energía y Baterías / Power and Batteries | 0 | 0 | Sin artículos / No articles |
 | 09 · IoT y Smart Home / IoT and Smart Home | 0 | 0 | Sin artículos / No articles |
 | 10 · Seguridad y Criptografía / Security and Cryptography | 0 | 0 | Sin artículos / No articles |
@@ -96,8 +96,10 @@ The library follows a progression from fundamentals to security and privacy impl
 
 ### 07 · Audio y Periféricos / Audio and Peripherals
 
-- [ES · `07_AudioYPerifericos`](ES/07_AudioYPerifericos/) — _(sin artículos todavía)_
-- [EN · `07_AudioAndPeripherals`](EN/07_AudioAndPeripherals/) — _(no articles yet)_
+- [ES · `07_AudioYPerifericos`](ES/07_AudioYPerifericos/)
+  - 01 · [¿Cómo puede un auricular quitar ruido emitiendo más sonido?](ES/07_AudioYPerifericos/01-ComoQuitaRuidoUnAuricular.md)
+- [EN · `07_AudioAndPeripherals`](EN/07_AudioAndPeripherals/)
+  - 01 · [How can headphones remove noise by playing more sound?](EN/07_AudioAndPeripherals/01-HowHeadphonesCancelNoise.md)
 
 ### 08 · Energía y Baterías / Power and Batteries
 
