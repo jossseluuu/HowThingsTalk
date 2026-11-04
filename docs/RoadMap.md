@@ -13,7 +13,7 @@
 <sub>Tablas compartidas por las dos versiones. Son fechas, rutas y números: se leen igual en cualquier idioma y se actualizan en un solo sitio.<br>
 <i>Shared by both language versions. Dates, paths and numbers read the same either way, and are updated in exactly one place.</i></sub>
 
-**Publicados · Published:** 3 artículos · *3 articles*
+**Publicados · Published:** 4 artículos · *4 articles*
 
 La biblioteca está en fase de estructura: existen las carpetas de las trece secciones en `docs/ES/` y `docs/EN/`, pero todavía no hay ningún artículo publicado. Cada artículo se publica en las dos lenguas, con el mismo número de orden en ambas carpetas.
 
@@ -23,7 +23,7 @@ La biblioteca está en fase de estructura: existen las carpetas de las trece sec
 
 | Sección · Section | Carpetas · Folders | En revisión · In review | Publicados · Published |
 |---|---|---|---|
-| 00 · Fundamentos · Foundations | `00_Fundamentos` · `00_Foundations` | 0 | 2 |
+| 00 · Fundamentos · Foundations | `00_Fundamentos` · `00_Foundations` | 0 | 3 |
 | 01 · Redes WiFi · WiFi Networks | `01_RedesWiFi` · `01_WiFiNetworks` | 0 | 0 |
 | 02 · Redes Móviles · Cellular Networks | `02_RedesMoviles` · `02_CellularNetworks` | 0 | 0 |
 | 03 · Corto Alcance · Short-Range Radio | `03_CortoAlcance` · `03_ShortRangeRadio` | 0 | 0 |
@@ -36,7 +36,7 @@ La biblioteca está en fase de estructura: existen las carpetas de las trece sec
 | 10 · Seguridad y Criptografía · Security and Cryptography | `10_SeguridadYCriptografia` · `10_SecurityAndCryptography` | 0 | 0 |
 | 11 · Privacidad y Huella · Privacy and Footprint | `11_PrivacidadYHuella` · `11_PrivacyAndFootprint` | 0 | 0 |
 | 99 · Referencia · Reference | `99_Referencia` · `99_Reference` | 0 | 0 |
-| **Total** | | **0** | **3** |
+| **Total** | | **0** | **4** |
 
 ### 🔨 En curso · In progress
 
@@ -53,6 +53,7 @@ La biblioteca está en fase de estructura: existen las carpetas de las trece sec
 | 2026-10-31 | [¿Por qué una señal de radio de más frecuencia llega menos lejos?](ES/00_Fundamentos/01-PorQueMasFrecuenciaLlegaMenosLejos.md) · [Why does a higher-frequency radio signal reach a shorter distance?](EN/00_Foundations/01-WhyHigherFrequenciesReachLess.md) | 00 · Fundamentos · Foundations |
 | 2026-11-02 | [¿Qué decide cuántos bits por segundo caben en una señal de radio?](ES/00_Fundamentos/02-QueDecideLaVelocidadDeUnEnlaceDeRadio.md) · [What decides how many bits per second a radio signal can carry?](EN/00_Foundations/02-WhatSetsTheSpeedOfARadioLink.md) | 00 · Fundamentos · Foundations |
 | 2026-11-03 | [¿Cómo puede un auricular quitar ruido emitiendo más sonido?](ES/07_AudioYPerifericos/01-ComoQuitaRuidoUnAuricular.md) · [How can headphones remove noise by playing more sound?](EN/07_AudioAndPeripherals/01-HowHeadphonesCancelNoise.md) | 07 · Audio y Periféricos · Audio and Peripherals |
+| 2026-11-04 | [¿Por qué la señal cambia tanto al mover el móvil unos centímetros?](ES/00_Fundamentos/03-PorQueLaCoberturaCambiaEnPocosCentimetros.md) · [Why does signal strength change so much when you move a phone a few centimetres?](EN/00_Foundations/03-WhySignalChangesOverAFewCentimetres.md) | 00 · Fundamentos · Foundations |
 
 <sub>Esta tabla es la que hace visible que el proyecto avanza. No la borres nunca. · <i>This table is what shows the project is moving. Never delete it.</i></sub>
 

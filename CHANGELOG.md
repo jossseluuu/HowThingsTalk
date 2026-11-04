@@ -8,6 +8,12 @@ Formato basado en / Format based on [Keep a Changelog](https://keepachangelog.co
 
 ---
 
+## 2026-11-04 · Revisión automática · Automated review
+
+### Añadido · Added
+
+- Artículo «¿Por qué la señal cambia tanto al mover el móvil unos centímetros?» ([`docs/ES/00_Fundamentos/03-PorQueLaCoberturaCambiaEnPocosCentimetros.md`](docs/ES/00_Fundamentos/03-PorQueLaCoberturaCambiaEnPocosCentimetros.md)) · Article "Why does signal strength change so much when you move a phone a few centimetres?" ([`docs/EN/00_Foundations/03-WhySignalChangesOverAFewCentimetres.md`](docs/EN/00_Foundations/03-WhySignalChangesOverAFewCentimetres.md)).
+
 ## 2026-11-03 · Revisión automática · Automated review
 
 ### Añadido · Added
