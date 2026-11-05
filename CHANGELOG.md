@@ -8,6 +8,12 @@ Formato basado en / Format based on [Keep a Changelog](https://keepachangelog.co
 
 ---
 
+## 2026-11-05 · Revisión automática · Automated review
+
+### Añadido · Added
+
+- Artículo «¿Cómo entrega TCP los datos en orden si los paquetes llegan desordenados?» ([`docs/ES/04_TransferenciaDeDatos/01-ComoEntregaTCPLosDatosEnOrden.md`](docs/ES/04_TransferenciaDeDatos/01-ComoEntregaTCPLosDatosEnOrden.md)) · Article "How does TCP deliver data in order when packets arrive out of order?" ([`docs/EN/04_DataTransfer/01-HowTCPDeliversDataInOrder.md`](docs/EN/04_DataTransfer/01-HowTCPDeliversDataInOrder.md)).
+
 ## 2026-11-04 · Revisión automática · Automated review
 
 ### Añadido · Added

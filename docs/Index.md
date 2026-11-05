@@ -29,9 +29,9 @@ This document is the entry point to the repository's technical content. It organ
 
 ## Estado actual / Current status
 
-La biblioteca sigue una progresión por temas, desde los fundamentos hasta las implicaciones de seguridad y privacidad. Ahora mismo existe la estructura completa de carpetas en los dos idiomas, pero todavía no hay ningún artículo publicado.
+La biblioteca sigue una progresión por temas, desde los fundamentos hasta las implicaciones de seguridad y privacidad. Ya hay cinco artículos publicados en las dos lenguas.
 
-The library follows a progression from fundamentals to security and privacy implications. The full folder structure exists in both languages, but no article has been published yet.
+The library follows a progression from fundamentals to security and privacy implications. Five articles are now published in both languages.
 
 <sub>Esta tabla se recalcula automáticamente a partir de los archivos reales. · <i>This table is recalculated automatically from the actual files.</i></sub>
 
@@ -41,7 +41,7 @@ The library follows a progression from fundamentals to security and privacy impl
 | 01 · Redes WiFi / WiFi Networks | 0 | 0 | Sin artículos / No articles |
 | 02 · Redes Móviles / Cellular Networks | 0 | 0 | Sin artículos / No articles |
 | 03 · Corto Alcance / Short-Range Radio | 0 | 0 | Sin artículos / No articles |
-| 04 · Transferencia de Datos / Data Transfer | 0 | 0 | Sin artículos / No articles |
+| 04 · Transferencia de Datos / Data Transfer | 0 | 1 | Publicada / Published |
 | 05 · Geolocalización / Positioning | 0 | 0 | Sin artículos / No articles |
 | 06 · Almacenamiento / Storage | 0 | 0 | Sin artículos / No articles |
 | 07 · Audio y Periféricos / Audio and Peripherals | 0 | 1 | Publicada / Published |
@@ -83,8 +83,10 @@ The library follows a progression from fundamentals to security and privacy impl
 
 ### 04 · Transferencia de Datos / Data Transfer
 
-- [ES · `04_TransferenciaDeDatos`](ES/04_TransferenciaDeDatos/) — _(sin artículos todavía)_
-- [EN · `04_DataTransfer`](EN/04_DataTransfer/) — _(no articles yet)_
+- [ES · `04_TransferenciaDeDatos`](ES/04_TransferenciaDeDatos/)
+  - 01 · [¿Cómo entrega TCP los datos en orden si los paquetes llegan desordenados?](ES/04_TransferenciaDeDatos/01-ComoEntregaTCPLosDatosEnOrden.md)
+- [EN · `04_DataTransfer`](EN/04_DataTransfer/)
+  - 01 · [How does TCP deliver data in order when packets arrive out of order?](EN/04_DataTransfer/01-HowTCPDeliversDataInOrder.md)
 
 ### 05 · Geolocalización / Positioning
 
