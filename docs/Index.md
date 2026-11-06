@@ -29,9 +29,9 @@ This document is the entry point to the repository's technical content. It organ
 
 ## Estado actual / Current status
 
-La biblioteca sigue una progresión por temas, desde los fundamentos hasta las implicaciones de seguridad y privacidad. Ya hay cinco artículos publicados en las dos lenguas.
+La biblioteca sigue una progresión por temas, desde los fundamentos hasta las implicaciones de seguridad y privacidad. Ya hay seis artículos publicados en las dos lenguas.
 
-The library follows a progression from fundamentals to security and privacy implications. Five articles are now published in both languages.
+The library follows a progression from fundamentals to security and privacy implications. Six articles are now published in both languages.
 
 <sub>Esta tabla se recalcula automáticamente a partir de los archivos reales. · <i>This table is recalculated automatically from the actual files.</i></sub>
 
@@ -42,7 +42,7 @@ The library follows a progression from fundamentals to security and privacy impl
 | 02 · Redes Móviles / Cellular Networks | 0 | 0 | Sin artículos / No articles |
 | 03 · Corto Alcance / Short-Range Radio | 0 | 0 | Sin artículos / No articles |
 | 04 · Transferencia de Datos / Data Transfer | 0 | 1 | Publicada / Published |
-| 05 · Geolocalización / Positioning | 0 | 0 | Sin artículos / No articles |
+| 05 · Geolocalización / Positioning | 0 | 1 | Publicada / Published |
 | 06 · Almacenamiento / Storage | 0 | 0 | Sin artículos / No articles |
 | 07 · Audio y Periféricos / Audio and Peripherals | 0 | 1 | Publicada / Published |
 | 08 · Energía y Baterías / Power and Batteries | 0 | 0 | Sin artículos / No articles |
@@ -90,8 +90,10 @@ The library follows a progression from fundamentals to security and privacy impl
 
 ### 05 · Geolocalización / Positioning
 
-- [ES · `05_Geolocalizacion`](ES/05_Geolocalizacion/) — _(sin artículos todavía)_
-- [EN · `05_Positioning`](EN/05_Positioning/) — _(no articles yet)_
+- [ES · `05_Geolocalizacion`](ES/05_Geolocalizacion/)
+  - 01 · [¿Cómo calcula un receptor GPS su posición a partir de las señales de los satélites?](ES/05_Geolocalizacion/01-ComoCalculaElGPSTuPosicion.md)
+- [EN · `05_Positioning`](EN/05_Positioning/)
+  - 01 · [How does a GPS receiver work out its position from satellite signals?](EN/05_Positioning/01-HowGPSComputesYourPosition.md)
 
 ### 06 · Almacenamiento / Storage
 

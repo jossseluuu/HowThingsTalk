@@ -8,6 +8,12 @@ Formato basado en / Format based on [Keep a Changelog](https://keepachangelog.co
 
 ---
 
+## 2026-11-06 · Revisión automática · Automated review
+
+### Añadido · Added
+
+- Artículo «¿Cómo calcula un receptor GPS su posición a partir de las señales de los satélites?» ([`docs/ES/05_Geolocalizacion/01-ComoCalculaElGPSTuPosicion.md`](docs/ES/05_Geolocalizacion/01-ComoCalculaElGPSTuPosicion.md)) · Article "How does a GPS receiver work out its position from satellite signals?" ([`docs/EN/05_Positioning/01-HowGPSComputesYourPosition.md`](docs/EN/05_Positioning/01-HowGPSComputesYourPosition.md)).
+
 ## 2026-11-05 · Revisión automática · Automated review
 
 ### Añadido · Added

@@ -13,11 +13,11 @@
 <sub>Tablas compartidas por las dos versiones. Son fechas, rutas y números: se leen igual en cualquier idioma y se actualizan en un solo sitio.<br>
 <i>Shared by both language versions. Dates, paths and numbers read the same either way, and are updated in exactly one place.</i></sub>
 
-**Publicados · Published:** 5 artículos · *5 articles*
+**Publicados · Published:** 6 artículos · *6 articles*
 
-La biblioteca contiene cinco artículos publicados. Las trece secciones tienen su estructura en `docs/ES/` y `docs/EN/`. Cada artículo se publica en las dos lenguas, con el mismo número de orden en ambas carpetas.
+La biblioteca contiene seis artículos publicados. Las trece secciones tienen su estructura en `docs/ES/` y `docs/EN/`. Cada artículo se publica en las dos lenguas, con el mismo número de orden en ambas carpetas.
 
-*The library now contains five published articles. All thirteen sections have their folder structure under `docs/ES/` and `docs/EN/`. Every article is published in both languages, with the same order number in both folders.*
+*The library now contains six published articles. All thirteen sections have their folder structure under `docs/ES/` and `docs/EN/`. Every article is published in both languages, with the same order number in both folders.*
 
 <sub>Los contadores se recalculan cada día a partir de los archivos reales. · <i>Counters are recalculated every day from the actual files.</i></sub>
 
@@ -28,7 +28,7 @@ La biblioteca contiene cinco artículos publicados. Las trece secciones tienen s
 | 02 · Redes Móviles · Cellular Networks | `02_RedesMoviles` · `02_CellularNetworks` | 0 | 0 |
 | 03 · Corto Alcance · Short-Range Radio | `03_CortoAlcance` · `03_ShortRangeRadio` | 0 | 0 |
 | 04 · Transferencia de Datos · Data Transfer | `04_TransferenciaDeDatos` · `04_DataTransfer` | 0 | 1 |
-| 05 · Geolocalización · Positioning | `05_Geolocalizacion` · `05_Positioning` | 0 | 0 |
+| 05 · Geolocalización · Positioning | `05_Geolocalizacion` · `05_Positioning` | 0 | 1 |
 | 06 · Almacenamiento · Storage | `06_Almacenamiento` · `06_Storage` | 0 | 0 |
 | 07 · Audio y Periféricos · Audio and Peripherals | `07_AudioYPerifericos` · `07_AudioAndPeripherals` | 0 | 1 |
 | 08 · Energía y Baterías · Power and Batteries | `08_EnergiaYBaterias` · `08_PowerAndBatteries` | 0 | 0 |
@@ -36,7 +36,7 @@ La biblioteca contiene cinco artículos publicados. Las trece secciones tienen s
 | 10 · Seguridad y Criptografía · Security and Cryptography | `10_SeguridadYCriptografia` · `10_SecurityAndCryptography` | 0 | 0 |
 | 11 · Privacidad y Huella · Privacy and Footprint | `11_PrivacidadYHuella` · `11_PrivacyAndFootprint` | 0 | 0 |
 | 99 · Referencia · Reference | `99_Referencia` · `99_Reference` | 0 | 0 |
-| **Total** | | **0** | **5** |
+| **Total** | | **0** | **6** |
 
 ### 🔨 En curso · In progress
 
@@ -55,6 +55,7 @@ La biblioteca contiene cinco artículos publicados. Las trece secciones tienen s
 | 2026-11-03 | [¿Cómo puede un auricular quitar ruido emitiendo más sonido?](ES/07_AudioYPerifericos/01-ComoQuitaRuidoUnAuricular.md) · [How can headphones remove noise by playing more sound?](EN/07_AudioAndPeripherals/01-HowHeadphonesCancelNoise.md) | 07 · Audio y Periféricos · Audio and Peripherals |
 | 2026-11-04 | [¿Por qué la señal cambia tanto al mover el móvil unos centímetros?](ES/00_Fundamentos/03-PorQueLaCoberturaCambiaEnPocosCentimetros.md) · [Why does signal strength change so much when you move a phone a few centimetres?](EN/00_Foundations/03-WhySignalChangesOverAFewCentimetres.md) | 00 · Fundamentos · Foundations |
 | 2026-11-05 | [¿Cómo entrega TCP los datos en orden si los paquetes llegan desordenados?](ES/04_TransferenciaDeDatos/01-ComoEntregaTCPLosDatosEnOrden.md) · [How does TCP deliver data in order when packets arrive out of order?](EN/04_DataTransfer/01-HowTCPDeliversDataInOrder.md) | 04 · Transferencia de Datos · Data Transfer |
+| 2026-11-06 | [¿Cómo calcula un receptor GPS su posición a partir de las señales de los satélites?](ES/05_Geolocalizacion/01-ComoCalculaElGPSTuPosicion.md) · [How does a GPS receiver work out its position from satellite signals?](EN/05_Positioning/01-HowGPSComputesYourPosition.md) | 05 · Geolocalización · Positioning |
 
 <sub>Esta tabla es la que hace visible que el proyecto avanza. No la borres nunca. · <i>This table is what shows the project is moving. Never delete it.</i></sub>
 
