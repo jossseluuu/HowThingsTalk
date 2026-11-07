@@ -29,9 +29,9 @@ This document is the entry point to the repository's technical content. It organ
 
 ## Estado actual / Current status
 
-La biblioteca sigue una progresión por temas, desde los fundamentos hasta las implicaciones de seguridad y privacidad. Ya hay seis artículos publicados en las dos lenguas.
+La biblioteca sigue una progresión por temas, desde los fundamentos hasta las implicaciones de seguridad y privacidad. Ya hay siete artículos publicados en las dos lenguas.
 
-The library follows a progression from fundamentals to security and privacy implications. Six articles are now published in both languages.
+The library follows a progression from fundamentals to security and privacy implications. Seven articles are now published in both languages.
 
 <sub>Esta tabla se recalcula automáticamente a partir de los archivos reales. · <i>This table is recalculated automatically from the actual files.</i></sub>
 
@@ -48,7 +48,7 @@ The library follows a progression from fundamentals to security and privacy impl
 | 08 · Energía y Baterías / Power and Batteries | 0 | 0 | Sin artículos / No articles |
 | 09 · IoT y Smart Home / IoT and Smart Home | 0 | 0 | Sin artículos / No articles |
 | 10 · Seguridad y Criptografía / Security and Cryptography | 0 | 0 | Sin artículos / No articles |
-| 11 · Privacidad y Huella / Privacy and Footprint | 0 | 0 | Sin artículos / No articles |
+| 11 · Privacidad y Huella / Privacy and Footprint | 0 | 1 | Publicada / Published |
 | 99 · Referencia / Reference | 0 | 0 | Sin artículos / No articles |
 
 ---
@@ -124,8 +124,10 @@ The library follows a progression from fundamentals to security and privacy impl
 
 ### 11 · Privacidad y Huella / Privacy and Footprint
 
-- [ES · `11_PrivacidadYHuella`](ES/11_PrivacidadYHuella/) — _(sin artículos todavía)_
-- [EN · `11_PrivacyAndFootprint`](EN/11_PrivacyAndFootprint/) — _(no articles yet)_
+- [ES · `11_PrivacidadYHuella`](ES/11_PrivacidadYHuella/)
+  - 01 · [¿Por qué el móvil usa una dirección MAC distinta en cada red WiFi?](ES/11_PrivacidadYHuella/01-PorQueElMovilCambiaSuDireccionMAC.md)
+- [EN · `11_PrivacyAndFootprint`](EN/11_PrivacyAndFootprint/)
+  - 01 · [Why does your phone use a different MAC address on each WiFi network?](EN/11_PrivacyAndFootprint/01-WhyPhonesRandomizeTheirMACAddress.md)
 
 ### 99 · Referencia / Reference
 

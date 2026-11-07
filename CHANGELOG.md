@@ -8,6 +8,12 @@ Formato basado en / Format based on [Keep a Changelog](https://keepachangelog.co
 
 ---
 
+## 2026-11-07 · Revisión automática · Automated review
+
+### Añadido · Added
+
+- Artículo «¿Por qué el móvil usa una dirección MAC distinta en cada red WiFi?» ([`docs/ES/11_PrivacidadYHuella/01-PorQueElMovilCambiaSuDireccionMAC.md`](docs/ES/11_PrivacidadYHuella/01-PorQueElMovilCambiaSuDireccionMAC.md)) · Article "Why does your phone use a different MAC address on each WiFi network?" ([`docs/EN/11_PrivacyAndFootprint/01-WhyPhonesRandomizeTheirMACAddress.md`](docs/EN/11_PrivacyAndFootprint/01-WhyPhonesRandomizeTheirMACAddress.md)).
+
 ## 2026-11-06 · Revisión automática · Automated review
 
 ### Añadido · Added
