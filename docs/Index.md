@@ -29,9 +29,9 @@ This document is the entry point to the repository's technical content. It organ
 
 ## Estado actual / Current status
 
-La biblioteca sigue una progresión por temas, desde los fundamentos hasta las implicaciones de seguridad y privacidad. Ya hay siete artículos publicados en las dos lenguas.
+La biblioteca sigue una progresión por temas, desde los fundamentos hasta las implicaciones de seguridad y privacidad. Ya hay ocho artículos publicados en las dos lenguas.
 
-The library follows a progression from fundamentals to security and privacy implications. Seven articles are now published in both languages.
+The library follows a progression from fundamentals to security and privacy implications. Eight articles are now published in both languages.
 
 <sub>Esta tabla se recalcula automáticamente a partir de los archivos reales. · <i>This table is recalculated automatically from the actual files.</i></sub>
 
@@ -47,7 +47,7 @@ The library follows a progression from fundamentals to security and privacy impl
 | 07 · Audio y Periféricos / Audio and Peripherals | 0 | 1 | Publicada / Published |
 | 08 · Energía y Baterías / Power and Batteries | 0 | 0 | Sin artículos / No articles |
 | 09 · IoT y Smart Home / IoT and Smart Home | 0 | 0 | Sin artículos / No articles |
-| 10 · Seguridad y Criptografía / Security and Cryptography | 0 | 0 | Sin artículos / No articles |
+| 10 · Seguridad y Criptografía / Security and Cryptography | 0 | 1 | Publicada / Published |
 | 11 · Privacidad y Huella / Privacy and Footprint | 0 | 1 | Publicada / Published |
 | 99 · Referencia / Reference | 0 | 0 | Sin artículos / No articles |
 
@@ -119,8 +119,10 @@ The library follows a progression from fundamentals to security and privacy impl
 
 ### 10 · Seguridad y Criptografía / Security and Cryptography
 
-- [ES · `10_SeguridadYCriptografia`](ES/10_SeguridadYCriptografia/) — _(sin artículos todavía)_
-- [EN · `10_SecurityAndCryptography`](EN/10_SecurityAndCryptography/) — _(no articles yet)_
+- [ES · `10_SeguridadYCriptografia`](ES/10_SeguridadYCriptografia/)
+  - 01 · [¿Cómo acuerdan dos aparatos una clave secreta hablando por un canal que cualquiera puede escuchar?](ES/10_SeguridadYCriptografia/01-ComoAcuerdanDosAparatosUnaClaveSecreta.md)
+- [EN · `10_SecurityAndCryptography`](EN/10_SecurityAndCryptography/)
+  - 01 · [How do two devices agree on a secret key over a channel anyone can listen to?](EN/10_SecurityAndCryptography/01-HowTwoDevicesAgreeOnASecretKey.md)
 
 ### 11 · Privacidad y Huella / Privacy and Footprint
 

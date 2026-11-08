@@ -8,6 +8,12 @@ Formato basado en / Format based on [Keep a Changelog](https://keepachangelog.co
 
 ---
 
+## 2026-11-08 · Revisión automática · Automated review
+
+### Añadido · Added
+
+- Artículo «¿Cómo acuerdan dos aparatos una clave secreta hablando por un canal que cualquiera puede escuchar?» ([`docs/ES/10_SeguridadYCriptografia/01-ComoAcuerdanDosAparatosUnaClaveSecreta.md`](docs/ES/10_SeguridadYCriptografia/01-ComoAcuerdanDosAparatosUnaClaveSecreta.md)) · Article "How do two devices agree on a secret key over a channel anyone can listen to?" ([`docs/EN/10_SecurityAndCryptography/01-HowTwoDevicesAgreeOnASecretKey.md`](docs/EN/10_SecurityAndCryptography/01-HowTwoDevicesAgreeOnASecretKey.md)).
+
 ## 2026-11-07 · Revisión automática · Automated review
 
 ### Añadido · Added

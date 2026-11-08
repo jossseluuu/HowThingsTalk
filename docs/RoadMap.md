@@ -13,11 +13,11 @@
 <sub>Tablas compartidas por las dos versiones. Son fechas, rutas y números: se leen igual en cualquier idioma y se actualizan en un solo sitio.<br>
 <i>Shared by both language versions. Dates, paths and numbers read the same either way, and are updated in exactly one place.</i></sub>
 
-**Publicados · Published:** 7 artículos · *7 articles*
+**Publicados · Published:** 8 artículos · *8 articles*
 
-La biblioteca contiene siete artículos publicados. Las trece secciones tienen su estructura en `docs/ES/` y `docs/EN/`. Cada artículo se publica en las dos lenguas, con el mismo número de orden en ambas carpetas.
+La biblioteca contiene ocho artículos publicados. Las trece secciones tienen su estructura en `docs/ES/` y `docs/EN/`. Cada artículo se publica en las dos lenguas, con el mismo número de orden en ambas carpetas.
 
-*The library now contains seven published articles. All thirteen sections have their folder structure under `docs/ES/` and `docs/EN/`. Every article is published in both languages, with the same order number in both folders.*
+*The library now contains eight published articles. All thirteen sections have their folder structure under `docs/ES/` and `docs/EN/`. Every article is published in both languages, with the same order number in both folders.*
 
 <sub>Los contadores se recalculan cada día a partir de los archivos reales. · <i>Counters are recalculated every day from the actual files.</i></sub>
 
@@ -33,10 +33,10 @@ La biblioteca contiene siete artículos publicados. Las trece secciones tienen s
 | 07 · Audio y Periféricos · Audio and Peripherals | `07_AudioYPerifericos` · `07_AudioAndPeripherals` | 0 | 1 |
 | 08 · Energía y Baterías · Power and Batteries | `08_EnergiaYBaterias` · `08_PowerAndBatteries` | 0 | 0 |
 | 09 · IoT y Smart Home · IoT and Smart Home | `09_IOT` · `09_IOT` | 0 | 0 |
-| 10 · Seguridad y Criptografía · Security and Cryptography | `10_SeguridadYCriptografia` · `10_SecurityAndCryptography` | 0 | 0 |
+| 10 · Seguridad y Criptografía · Security and Cryptography | `10_SeguridadYCriptografia` · `10_SecurityAndCryptography` | 0 | 1 |
 | 11 · Privacidad y Huella · Privacy and Footprint | `11_PrivacidadYHuella` · `11_PrivacyAndFootprint` | 0 | 1 |
 | 99 · Referencia · Reference | `99_Referencia` · `99_Reference` | 0 | 0 |
-| **Total** | | **0** | **7** |
+| **Total** | | **0** | **8** |
 
 ### 🔨 En curso · In progress
 
@@ -57,6 +57,7 @@ La biblioteca contiene siete artículos publicados. Las trece secciones tienen s
 | 2026-11-05 | [¿Cómo entrega TCP los datos en orden si los paquetes llegan desordenados?](ES/04_TransferenciaDeDatos/01-ComoEntregaTCPLosDatosEnOrden.md) · [How does TCP deliver data in order when packets arrive out of order?](EN/04_DataTransfer/01-HowTCPDeliversDataInOrder.md) | 04 · Transferencia de Datos · Data Transfer |
 | 2026-11-06 | [¿Cómo calcula un receptor GPS su posición a partir de las señales de los satélites?](ES/05_Geolocalizacion/01-ComoCalculaElGPSTuPosicion.md) · [How does a GPS receiver work out its position from satellite signals?](EN/05_Positioning/01-HowGPSComputesYourPosition.md) | 05 · Geolocalización · Positioning |
 | 2026-11-07 | [¿Por qué el móvil usa una dirección MAC distinta en cada red WiFi?](ES/11_PrivacidadYHuella/01-PorQueElMovilCambiaSuDireccionMAC.md) · [Why does your phone use a different MAC address on each WiFi network?](EN/11_PrivacyAndFootprint/01-WhyPhonesRandomizeTheirMACAddress.md) | 11 · Privacidad y Huella · Privacy and Footprint |
+| 2026-11-08 | [¿Cómo acuerdan dos aparatos una clave secreta hablando por un canal que cualquiera puede escuchar?](ES/10_SeguridadYCriptografia/01-ComoAcuerdanDosAparatosUnaClaveSecreta.md) · [How do two devices agree on a secret key over a channel anyone can listen to?](EN/10_SecurityAndCryptography/01-HowTwoDevicesAgreeOnASecretKey.md) | 10 · Seguridad y Criptografía · Security and Cryptography |
 
 <sub>Esta tabla es la que hace visible que el proyecto avanza. No la borres nunca. · <i>This table is what shows the project is moving. Never delete it.</i></sub>
 

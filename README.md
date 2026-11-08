@@ -55,7 +55,7 @@ Cada artículo se escribe en **español y en inglés**: la versión española vi
 
 ## ¿Por dónde empiezo?
 
-La biblioteca ya contiene siete artículos publicados en dos idiomas. El punto de entrada es el [índice general](docs/Index.md), que organiza las secciones. La [hoja de ruta](docs/RoadMap.md) recoge lo publicado y lo que está en curso.
+La biblioteca ya contiene ocho artículos publicados en dos idiomas. El punto de entrada es el [índice general](docs/Index.md), que organiza las secciones. La [hoja de ruta](docs/RoadMap.md) recoge lo publicado y lo que está en curso.
 
 ## Estructura
 
@@ -124,10 +124,10 @@ Las carpetas y los archivos usan PascalCase, sin espacios, tildes ni eñes, y ca
 | 07 · Audio y Periféricos | 1 |
 | 08 · Energía y Baterías | 0 |
 | 09 · IoT y Smart Home | 0 |
-| 10 · Seguridad y Criptografía | 0 |
+| 10 · Seguridad y Criptografía | 1 |
 | 11 · Privacidad y Huella | 1 |
 | 99 · Referencia | 0 |
-| **Total** | **7** |
+| **Total** | **8** |
 
 ## ¿Cómo se escribe aquí?
 
@@ -216,7 +216,7 @@ Every article is written in **Spanish and English**: the Spanish version lives i
 
 ### Where do I start?
 
-The library now contains seven articles published in two languages. The entry point is the [master index](docs/Index.md), which organizes the sections. The [roadmap](docs/RoadMap.md) lists what has been published and what is in progress.
+The library now contains eight articles published in two languages. The entry point is the [master index](docs/Index.md), which organizes the sections. The [roadmap](docs/RoadMap.md) lists what has been published and what is in progress.
 
 ### Structure
 
@@ -285,10 +285,10 @@ Folders and files use PascalCase, with no spaces or accented characters, and eve
 | 07 · Audio and Peripherals | 1 |
 | 08 · Power and Batteries | 0 |
 | 09 · IoT and Smart Home | 0 |
-| 10 · Security and Cryptography | 0 |
+| 10 · Security and Cryptography | 1 |
 | 11 · Privacy and Footprint | 1 |
 | 99 · Reference | 0 |
-| **Total** | **7** |
+| **Total** | **8** |
 
 ### How we write
 
