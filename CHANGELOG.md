@@ -8,6 +8,12 @@ Formato basado en / Format based on [Keep a Changelog](https://keepachangelog.co
 
 ---
 
+## 2026-11-09 · Revisión automática · Automated review
+
+### Añadido · Added
+
+- Artículo «¿Cómo convierte el micrófono del móvil el sonido en números?» ([`docs/ES/07_AudioYPerifericos/02-ComoConvierteElMicrofonoElSonidoEnNumeros.md`](docs/ES/07_AudioYPerifericos/02-ComoConvierteElMicrofonoElSonidoEnNumeros.md)) · Article "How does a phone microphone turn sound into numbers?" ([`docs/EN/07_AudioAndPeripherals/02-HowAPhoneMicrophoneTurnsSoundIntoNumbers.md`](docs/EN/07_AudioAndPeripherals/02-HowAPhoneMicrophoneTurnsSoundIntoNumbers.md)).
+
 ## 2026-11-08 · Revisión automática · Automated review
 
 ### Añadido · Added

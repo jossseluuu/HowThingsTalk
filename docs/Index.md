@@ -29,9 +29,9 @@ This document is the entry point to the repository's technical content. It organ
 
 ## Estado actual / Current status
 
-La biblioteca sigue una progresión por temas, desde los fundamentos hasta las implicaciones de seguridad y privacidad. Ya hay ocho artículos publicados en las dos lenguas.
+La biblioteca sigue una progresión por temas, desde los fundamentos hasta las implicaciones de seguridad y privacidad. Ya hay nueve artículos publicados en las dos lenguas.
 
-The library follows a progression from fundamentals to security and privacy implications. Eight articles are now published in both languages.
+The library follows a progression from fundamentals to security and privacy implications. Nine articles are now published in both languages.
 
 <sub>Esta tabla se recalcula automáticamente a partir de los archivos reales. · <i>This table is recalculated automatically from the actual files.</i></sub>
 
@@ -44,7 +44,7 @@ The library follows a progression from fundamentals to security and privacy impl
 | 04 · Transferencia de Datos / Data Transfer | 0 | 1 | Publicada / Published |
 | 05 · Geolocalización / Positioning | 0 | 1 | Publicada / Published |
 | 06 · Almacenamiento / Storage | 0 | 0 | Sin artículos / No articles |
-| 07 · Audio y Periféricos / Audio and Peripherals | 0 | 1 | Publicada / Published |
+| 07 · Audio y Periféricos / Audio and Peripherals | 0 | 2 | Publicada / Published |
 | 08 · Energía y Baterías / Power and Batteries | 0 | 0 | Sin artículos / No articles |
 | 09 · IoT y Smart Home / IoT and Smart Home | 0 | 0 | Sin artículos / No articles |
 | 10 · Seguridad y Criptografía / Security and Cryptography | 0 | 1 | Publicada / Published |
@@ -104,8 +104,10 @@ The library follows a progression from fundamentals to security and privacy impl
 
 - [ES · `07_AudioYPerifericos`](ES/07_AudioYPerifericos/)
   - 01 · [¿Cómo puede un auricular quitar ruido emitiendo más sonido?](ES/07_AudioYPerifericos/01-ComoQuitaRuidoUnAuricular.md)
+  - 02 · [¿Cómo convierte el micrófono del móvil el sonido en números?](ES/07_AudioYPerifericos/02-ComoConvierteElMicrofonoElSonidoEnNumeros.md)
 - [EN · `07_AudioAndPeripherals`](EN/07_AudioAndPeripherals/)
   - 01 · [How can headphones remove noise by playing more sound?](EN/07_AudioAndPeripherals/01-HowHeadphonesCancelNoise.md)
+  - 02 · [How does a phone microphone turn sound into numbers?](EN/07_AudioAndPeripherals/02-HowAPhoneMicrophoneTurnsSoundIntoNumbers.md)
 
 ### 08 · Energía y Baterías / Power and Batteries
 
