@@ -8,6 +8,12 @@ Formato basado en / Format based on [Keep a Changelog](https://keepachangelog.co
 
 ---
 
+## 2026-11-10 · Revisión automática · Automated review
+
+### Añadido · Added
+
+- Artículo «¿Cómo sabe TCP a qué velocidad puede enviar sin saturar la red?» ([`docs/ES/04_TransferenciaDeDatos/02-ComoSabeTCPAQueVelocidadEnviar.md`](docs/ES/04_TransferenciaDeDatos/02-ComoSabeTCPAQueVelocidadEnviar.md)) · Article "How does TCP know how fast it can send without overloading the network?" ([`docs/EN/04_DataTransfer/02-HowTCPDecidesHowFastToSend.md`](docs/EN/04_DataTransfer/02-HowTCPDecidesHowFastToSend.md)).
+
 ## 2026-11-09 · Revisión automática · Automated review
 
 ### Añadido · Added

@@ -55,7 +55,7 @@ Cada artículo se escribe en **español y en inglés**: la versión española vi
 
 ## ¿Por dónde empiezo?
 
-La biblioteca ya contiene nueve artículos publicados en dos idiomas. El punto de entrada es el [índice general](docs/Index.md), que organiza las secciones. La [hoja de ruta](docs/RoadMap.md) recoge lo publicado y lo que está en curso.
+La biblioteca ya contiene diez artículos publicados en dos idiomas. El punto de entrada es el [índice general](docs/Index.md), que organiza las secciones. La [hoja de ruta](docs/RoadMap.md) recoge lo publicado y lo que está en curso.
 
 ## Estructura
 
@@ -118,7 +118,7 @@ Las carpetas y los archivos usan PascalCase, sin espacios, tildes ni eñes, y ca
 | 01 · Redes WiFi | 0 |
 | 02 · Redes Móviles | 0 |
 | 03 · Corto Alcance | 0 |
-| 04 · Transferencia de Datos | 1 |
+| 04 · Transferencia de Datos | 2 |
 | 05 · Geolocalización | 1 |
 | 06 · Almacenamiento | 0 |
 | 07 · Audio y Periféricos | 2 |
@@ -127,7 +127,7 @@ Las carpetas y los archivos usan PascalCase, sin espacios, tildes ni eñes, y ca
 | 10 · Seguridad y Criptografía | 1 |
 | 11 · Privacidad y Huella | 1 |
 | 99 · Referencia | 0 |
-| **Total** | **9** |
+| **Total** | **10** |
 
 ## ¿Cómo se escribe aquí?
 
@@ -216,7 +216,7 @@ Every article is written in **Spanish and English**: the Spanish version lives i
 
 ### Where do I start?
 
-The library now contains nine articles published in two languages. The entry point is the [master index](docs/Index.md), which organizes the sections. The [roadmap](docs/RoadMap.md) lists what has been published and what is in progress.
+The library now contains ten articles published in two languages. The entry point is the [master index](docs/Index.md), which organizes the sections. The [roadmap](docs/RoadMap.md) lists what has been published and what is in progress.
 
 ### Structure
 
@@ -279,7 +279,7 @@ Folders and files use PascalCase, with no spaces or accented characters, and eve
 | 01 · WiFi Networks | 0 |
 | 02 · Cellular Networks | 0 |
 | 03 · Short-Range Radio | 0 |
-| 04 · Data Transfer | 1 |
+| 04 · Data Transfer | 2 |
 | 05 · Positioning | 1 |
 | 06 · Storage | 0 |
 | 07 · Audio and Peripherals | 2 |
@@ -288,7 +288,7 @@ Folders and files use PascalCase, with no spaces or accented characters, and eve
 | 10 · Security and Cryptography | 1 |
 | 11 · Privacy and Footprint | 1 |
 | 99 · Reference | 0 |
-| **Total** | **9** |
+| **Total** | **10** |
 
 ### How we write
 

@@ -13,11 +13,11 @@
 <sub>Tablas compartidas por las dos versiones. Son fechas, rutas y números: se leen igual en cualquier idioma y se actualizan en un solo sitio.<br>
 <i>Shared by both language versions. Dates, paths and numbers read the same either way, and are updated in exactly one place.</i></sub>
 
-**Publicados · Published:** 9 artículos · *9 articles*
+**Publicados · Published:** 10 artículos · *10 articles*
 
-La biblioteca contiene nueve artículos publicados. Las trece secciones tienen su estructura en `docs/ES/` y `docs/EN/`. Cada artículo se publica en las dos lenguas, con el mismo número de orden en ambas carpetas.
+La biblioteca contiene diez artículos publicados. Las trece secciones tienen su estructura en `docs/ES/` y `docs/EN/`. Cada artículo se publica en las dos lenguas, con el mismo número de orden en ambas carpetas.
 
-*The library now contains nine published articles. All thirteen sections have their folder structure under `docs/ES/` and `docs/EN/`. Every article is published in both languages, with the same order number in both folders.*
+*The library now contains ten published articles. All thirteen sections have their folder structure under `docs/ES/` and `docs/EN/`. Every article is published in both languages, with the same order number in both folders.*
 
 <sub>Los contadores se recalculan cada día a partir de los archivos reales. · <i>Counters are recalculated every day from the actual files.</i></sub>
 
@@ -27,7 +27,7 @@ La biblioteca contiene nueve artículos publicados. Las trece secciones tienen s
 | 01 · Redes WiFi · WiFi Networks | `01_RedesWiFi` · `01_WiFiNetworks` | 0 | 0 |
 | 02 · Redes Móviles · Cellular Networks | `02_RedesMoviles` · `02_CellularNetworks` | 0 | 0 |
 | 03 · Corto Alcance · Short-Range Radio | `03_CortoAlcance` · `03_ShortRangeRadio` | 0 | 0 |
-| 04 · Transferencia de Datos · Data Transfer | `04_TransferenciaDeDatos` · `04_DataTransfer` | 0 | 1 |
+| 04 · Transferencia de Datos · Data Transfer | `04_TransferenciaDeDatos` · `04_DataTransfer` | 0 | 2 |
 | 05 · Geolocalización · Positioning | `05_Geolocalizacion` · `05_Positioning` | 0 | 1 |
 | 06 · Almacenamiento · Storage | `06_Almacenamiento` · `06_Storage` | 0 | 0 |
 | 07 · Audio y Periféricos · Audio and Peripherals | `07_AudioYPerifericos` · `07_AudioAndPeripherals` | 0 | 2 |
@@ -36,7 +36,7 @@ La biblioteca contiene nueve artículos publicados. Las trece secciones tienen s
 | 10 · Seguridad y Criptografía · Security and Cryptography | `10_SeguridadYCriptografia` · `10_SecurityAndCryptography` | 0 | 1 |
 | 11 · Privacidad y Huella · Privacy and Footprint | `11_PrivacidadYHuella` · `11_PrivacyAndFootprint` | 0 | 1 |
 | 99 · Referencia · Reference | `99_Referencia` · `99_Reference` | 0 | 0 |
-| **Total** | | **0** | **9** |
+| **Total** | | **0** | **10** |
 
 ### 🔨 En curso · In progress
 
@@ -53,12 +53,13 @@ La biblioteca contiene nueve artículos publicados. Las trece secciones tienen s
 | 2026-10-31 | [¿Por qué una señal de radio de más frecuencia llega menos lejos?](ES/00_Fundamentos/01-PorQueMasFrecuenciaLlegaMenosLejos.md) · [Why does a higher-frequency radio signal reach a shorter distance?](EN/00_Foundations/01-WhyHigherFrequenciesReachLess.md) | 00 · Fundamentos · Foundations |
 | 2026-11-02 | [¿Qué decide cuántos bits por segundo caben en una señal de radio?](ES/00_Fundamentos/02-QueDecideLaVelocidadDeUnEnlaceDeRadio.md) · [What decides how many bits per second a radio signal can carry?](EN/00_Foundations/02-WhatSetsTheSpeedOfARadioLink.md) | 00 · Fundamentos · Foundations |
 | 2026-11-03 | [¿Cómo puede un auricular quitar ruido emitiendo más sonido?](ES/07_AudioYPerifericos/01-ComoQuitaRuidoUnAuricular.md) · [How can headphones remove noise by playing more sound?](EN/07_AudioAndPeripherals/01-HowHeadphonesCancelNoise.md) | 07 · Audio y Periféricos · Audio and Peripherals |
-| 2026-11-04 | [¿Por qué la señal cambia tanto al mover el móvil unos centímetros?](ES/00_Fundamentos/03-PorQueLaCoberturaCambiaEnPocosCentimetros.md) · [Why does signal strength change so much when you move a phone a few centimetres?](EN/00_Foundations/03-WhySignalChangesOverAFewCentimetres.md) | 00 · Fundamentos · Foundations |
+| 2026-11-04 | [¿Por qué la señal cambia tanto al mover el móvil unos centímetros?](ES/00_Fundamentos/03-PorQueLaCoberturaCambiaEnPocosCentimetros.md) · [Why does signal strength change so much when you move a phone a few centimetres?](EN/00_Foundations/03-WhySignalChangesOverAFewCentimetres.md) | 00 · Fundamentos · Foundations |
 | 2026-11-05 | [¿Cómo entrega TCP los datos en orden si los paquetes llegan desordenados?](ES/04_TransferenciaDeDatos/01-ComoEntregaTCPLosDatosEnOrden.md) · [How does TCP deliver data in order when packets arrive out of order?](EN/04_DataTransfer/01-HowTCPDeliversDataInOrder.md) | 04 · Transferencia de Datos · Data Transfer |
 | 2026-11-06 | [¿Cómo calcula un receptor GPS su posición a partir de las señales de los satélites?](ES/05_Geolocalizacion/01-ComoCalculaElGPSTuPosicion.md) · [How does a GPS receiver work out its position from satellite signals?](EN/05_Positioning/01-HowGPSComputesYourPosition.md) | 05 · Geolocalización · Positioning |
 | 2026-11-07 | [¿Por qué el móvil usa una dirección MAC distinta en cada red WiFi?](ES/11_PrivacidadYHuella/01-PorQueElMovilCambiaSuDireccionMAC.md) · [Why does your phone use a different MAC address on each WiFi network?](EN/11_PrivacyAndFootprint/01-WhyPhonesRandomizeTheirMACAddress.md) | 11 · Privacidad y Huella · Privacy and Footprint |
 | 2026-11-08 | [¿Cómo acuerdan dos aparatos una clave secreta hablando por un canal que cualquiera puede escuchar?](ES/10_SeguridadYCriptografia/01-ComoAcuerdanDosAparatosUnaClaveSecreta.md) · [How do two devices agree on a secret key over a channel anyone can listen to?](EN/10_SecurityAndCryptography/01-HowTwoDevicesAgreeOnASecretKey.md) | 10 · Seguridad y Criptografía · Security and Cryptography |
 | 2026-11-09 | [¿Cómo convierte el micrófono del móvil el sonido en números?](ES/07_AudioYPerifericos/02-ComoConvierteElMicrofonoElSonidoEnNumeros.md) · [How does a phone microphone turn sound into numbers?](EN/07_AudioAndPeripherals/02-HowAPhoneMicrophoneTurnsSoundIntoNumbers.md) | 07 · Audio y Periféricos · Audio and Peripherals |
+| 2026-11-10 | [¿Cómo sabe TCP a qué velocidad puede enviar sin saturar la red?](ES/04_TransferenciaDeDatos/02-ComoSabeTCPAQueVelocidadEnviar.md) · [How does TCP know how fast it can send without overloading the network?](EN/04_DataTransfer/02-HowTCPDecidesHowFastToSend.md) | 04 · Transferencia de Datos · Data Transfer |
 
 <sub>Esta tabla es la que hace visible que el proyecto avanza. No la borres nunca. · <i>This table is what shows the project is moving. Never delete it.</i></sub>
 
