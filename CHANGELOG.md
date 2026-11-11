@@ -8,6 +8,12 @@ Formato basado en / Format based on [Keep a Changelog](https://keepachangelog.co
 
 ---
 
+## 2026-11-11 · Revisión automática · Automated review
+
+### Añadido · Added
+
+- Artículo «¿Cómo sabe el móvil dónde está con el GPS apagado y sin conectarse a ninguna red WiFi?» ([`docs/ES/05_Geolocalizacion/02-ComoTeLocalizaElMovilSinGPS.md`](docs/ES/05_Geolocalizacion/02-ComoTeLocalizaElMovilSinGPS.md)) · Article "How does your phone know where it is with GPS off and without joining any WiFi network?" ([`docs/EN/05_Positioning/02-HowYourPhoneFindsItselfWithoutGPS.md`](docs/EN/05_Positioning/02-HowYourPhoneFindsItselfWithoutGPS.md)).
+
 ## 2026-11-10 · Revisión automática · Automated review
 
 ### Añadido · Added

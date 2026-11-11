@@ -29,9 +29,9 @@ This document is the entry point to the repository's technical content. It organ
 
 ## Estado actual / Current status
 
-La biblioteca sigue una progresión por temas, desde los fundamentos hasta las implicaciones de seguridad y privacidad. Ya hay diez artículos publicados en las dos lenguas.
+La biblioteca sigue una progresión por temas, desde los fundamentos hasta las implicaciones de seguridad y privacidad. Ya hay once artículos publicados en las dos lenguas.
 
-The library follows a progression from fundamentals to security and privacy implications. Ten articles are now published in both languages.
+The library follows a progression from fundamentals to security and privacy implications. Eleven articles are now published in both languages.
 
 <sub>Esta tabla se recalcula automáticamente a partir de los archivos reales. · <i>This table is recalculated automatically from the actual files.</i></sub>
 
@@ -42,7 +42,7 @@ The library follows a progression from fundamentals to security and privacy impl
 | 02 · Redes Móviles / Cellular Networks | 0 | 0 | Sin artículos / No articles |
 | 03 · Corto Alcance / Short-Range Radio | 0 | 0 | Sin artículos / No articles |
 | 04 · Transferencia de Datos / Data Transfer | 0 | 2 | Publicada / Published |
-| 05 · Geolocalización / Positioning | 0 | 1 | Publicada / Published |
+| 05 · Geolocalización / Positioning | 0 | 2 | Publicada / Published |
 | 06 · Almacenamiento / Storage | 0 | 0 | Sin artículos / No articles |
 | 07 · Audio y Periféricos / Audio and Peripherals | 0 | 2 | Publicada / Published |
 | 08 · Energía y Baterías / Power and Batteries | 0 | 0 | Sin artículos / No articles |
@@ -94,8 +94,10 @@ The library follows a progression from fundamentals to security and privacy impl
 
 - [ES · `05_Geolocalizacion`](ES/05_Geolocalizacion/)
   - 01 · [¿Cómo calcula un receptor GPS su posición a partir de las señales de los satélites?](ES/05_Geolocalizacion/01-ComoCalculaElGPSTuPosicion.md)
+  - 02 · [¿Cómo sabe el móvil dónde está con el GPS apagado y sin conectarse a ninguna red WiFi?](ES/05_Geolocalizacion/02-ComoTeLocalizaElMovilSinGPS.md)
 - [EN · `05_Positioning`](EN/05_Positioning/)
   - 01 · [How does a GPS receiver work out its position from satellite signals?](EN/05_Positioning/01-HowGPSComputesYourPosition.md)
+  - 02 · [How does your phone know where it is with GPS off and without joining any WiFi network?](EN/05_Positioning/02-HowYourPhoneFindsItselfWithoutGPS.md)
 
 ### 06 · Almacenamiento / Storage
 
