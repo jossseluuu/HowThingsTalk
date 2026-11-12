@@ -8,6 +8,12 @@ Formato basado en / Format based on [Keep a Changelog](https://keepachangelog.co
 
 ---
 
+## 2026-11-12 · Revisión automática · Automated review
+
+### Añadido · Added
+
+- Artículo «¿Qué puede ver tu operador de internet de lo que haces aunque la web use HTTPS?» ([`docs/ES/11_PrivacidadYHuella/02-QueVeTuOperadorAunqueUsesHTTPS.md`](docs/ES/11_PrivacidadYHuella/02-QueVeTuOperadorAunqueUsesHTTPS.md)) · Article "What can your internet provider see of what you do, even when the site uses HTTPS?" ([`docs/EN/11_PrivacyAndFootprint/02-WhatYourISPSeesDespiteHTTPS.md`](docs/EN/11_PrivacyAndFootprint/02-WhatYourISPSeesDespiteHTTPS.md)).
+
 ## 2026-11-11 · Revisión automática · Automated review
 
 ### Añadido · Added

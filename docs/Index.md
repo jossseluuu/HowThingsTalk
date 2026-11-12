@@ -48,7 +48,7 @@ The library follows a progression from fundamentals to security and privacy impl
 | 08 · Energía y Baterías / Power and Batteries | 0 | 0 | Sin artículos / No articles |
 | 09 · IoT y Smart Home / IoT and Smart Home | 0 | 0 | Sin artículos / No articles |
 | 10 · Seguridad y Criptografía / Security and Cryptography | 0 | 1 | Publicada / Published |
-| 11 · Privacidad y Huella / Privacy and Footprint | 0 | 1 | Publicada / Published |
+| 11 · Privacidad y Huella / Privacy and Footprint | 0 | 2 | Publicada / Published |
 | 99 · Referencia / Reference | 0 | 0 | Sin artículos / No articles |
 
 ---
@@ -134,8 +134,10 @@ The library follows a progression from fundamentals to security and privacy impl
 
 - [ES · `11_PrivacidadYHuella`](ES/11_PrivacidadYHuella/)
   - 01 · [¿Por qué el móvil usa una dirección MAC distinta en cada red WiFi?](ES/11_PrivacidadYHuella/01-PorQueElMovilCambiaSuDireccionMAC.md)
+  - 02 · [¿Qué puede ver tu operador de internet de lo que haces aunque la web use HTTPS?](ES/11_PrivacidadYHuella/02-QueVeTuOperadorAunqueUsesHTTPS.md)
 - [EN · `11_PrivacyAndFootprint`](EN/11_PrivacyAndFootprint/)
   - 01 · [Why does your phone use a different MAC address on each WiFi network?](EN/11_PrivacyAndFootprint/01-WhyPhonesRandomizeTheirMACAddress.md)
+  - 02 · [What can your internet provider see of what you do, even when the site uses HTTPS?](EN/11_PrivacyAndFootprint/02-WhatYourISPSeesDespiteHTTPS.md)
 
 ### 99 · Referencia / Reference
 
