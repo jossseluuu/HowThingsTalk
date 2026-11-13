@@ -120,14 +120,14 @@ Las carpetas y los archivos usan PascalCase, sin espacios, tildes ni eñes, y ca
 | 03 · Corto Alcance | 0 |
 | 04 · Transferencia de Datos | 2 |
 | 05 · Geolocalización | 2 |
-| 06 · Almacenamiento | 0 |
+| 06 · Almacenamiento | 1 |
 | 07 · Audio y Periféricos | 2 |
 | 08 · Energía y Baterías | 0 |
 | 09 · IoT y Smart Home | 0 |
 | 10 · Seguridad y Criptografía | 1 |
 | 11 · Privacidad y Huella | 2 |
 | 99 · Referencia | 0 |
-| **Total** | **12** |
+| **Total** | **13** |
 
 ## ¿Cómo se escribe aquí?
 
@@ -281,14 +281,14 @@ Folders and files use PascalCase, with no spaces or accented characters, and eve
 | 03 · Short-Range Radio | 0 |
 | 04 · Data Transfer | 2 |
 | 05 · Positioning | 2 |
-| 06 · Storage | 0 |
+| 06 · Storage | 1 |
 | 07 · Audio and Peripherals | 2 |
 | 08 · Power and Batteries | 0 |
 | 09 · IoT and Smart Home | 0 |
 | 10 · Security and Cryptography | 1 |
 | 11 · Privacy and Footprint | 2 |
 | 99 · Reference | 0 |
-| **Total** | **12** |
+| **Total** | **13** |
 
 ### How we write
 

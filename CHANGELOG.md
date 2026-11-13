@@ -8,6 +8,12 @@ Formato basado en / Format based on [Keep a Changelog](https://keepachangelog.co
 
 ---
 
+## 2026-11-13 · Revisión automática · Automated review
+
+### Añadido · Added
+
+- Artículo «¿Qué ocurre en las celdas de memoria flash cuando borras una foto?» ([`docs/ES/06_Almacenamiento/01-QuePasaEnLaFlashCuandoBorrasUnaFoto.md`](docs/ES/06_Almacenamiento/01-QuePasaEnLaFlashCuandoBorrasUnaFoto.md)) · Article "What happens inside flash memory cells when you delete a photo?" ([`docs/EN/06_Storage/01-WhatHappensInFlashWhenYouDeleteAPhoto.md`](docs/EN/06_Storage/01-WhatHappensInFlashWhenYouDeleteAPhoto.md)).
+
 ## 2026-11-12 · Revisión automática · Automated review
 
 ### Añadido · Added

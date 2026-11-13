@@ -13,7 +13,7 @@
 <sub>Tablas compartidas por las dos versiones. Son fechas, rutas y números: se leen igual en cualquier idioma y se actualizan en un solo sitio.<br>
 <i>Shared by both language versions. Dates, paths and numbers read the same either way, and are updated in exactly one place.</i></sub>
 
-**Publicados · Published:** 12 artículos · *12 articles*
+**Publicados · Published:** 13 artículos · *13 articles*
 
 La biblioteca contiene once artículos publicados. Las trece secciones tienen su estructura en `docs/ES/` y `docs/EN/`. Cada artículo se publica en las dos lenguas, con el mismo número de orden en ambas carpetas.
 
@@ -29,14 +29,14 @@ La biblioteca contiene once artículos publicados. Las trece secciones tienen su
 | 03 · Corto Alcance · Short-Range Radio | `03_CortoAlcance` · `03_ShortRangeRadio` | 0 | 0 |
 | 04 · Transferencia de Datos · Data Transfer | `04_TransferenciaDeDatos` · `04_DataTransfer` | 0 | 2 |
 | 05 · Geolocalización · Positioning | `05_Geolocalizacion` · `05_Positioning` | 0 | 2 |
-| 06 · Almacenamiento · Storage | `06_Almacenamiento` · `06_Storage` | 0 | 0 |
+| 06 · Almacenamiento · Storage | `06_Almacenamiento` · `06_Storage` | 0 | 1 |
 | 07 · Audio y Periféricos · Audio and Peripherals | `07_AudioYPerifericos` · `07_AudioAndPeripherals` | 0 | 2 |
 | 08 · Energía y Baterías · Power and Batteries | `08_EnergiaYBaterias` · `08_PowerAndBatteries` | 0 | 0 |
 | 09 · IoT y Smart Home · IoT and Smart Home | `09_IOT` · `09_IOT` | 0 | 0 |
 | 10 · Seguridad y Criptografía · Security and Cryptography | `10_SeguridadYCriptografia` · `10_SecurityAndCryptography` | 0 | 1 |
 | 11 · Privacidad y Huella · Privacy and Footprint | `11_PrivacidadYHuella` · `11_PrivacyAndFootprint` | 0 | 2 |
 | 99 · Referencia · Reference | `99_Referencia` · `99_Reference` | 0 | 0 |
-| **Total** | | **0** | **12** |
+| **Total** | | **0** | **13** |
 
 ### 🔨 En curso · In progress
 
@@ -62,6 +62,7 @@ La biblioteca contiene once artículos publicados. Las trece secciones tienen su
 | 2026-11-10 | [¿Cómo sabe TCP a qué velocidad puede enviar sin saturar la red?](ES/04_TransferenciaDeDatos/02-ComoSabeTCPAQueVelocidadEnviar.md) · [How does TCP know how fast it can send without overloading the network?](EN/04_DataTransfer/02-HowTCPDecidesHowFastToSend.md) | 04 · Transferencia de Datos · Data Transfer |
 | 2026-11-11 | [¿Cómo sabe el móvil dónde está con el GPS apagado y sin conectarse a ninguna red WiFi?](ES/05_Geolocalizacion/02-ComoTeLocalizaElMovilSinGPS.md) · [How does your phone know where it is with GPS off and without joining any WiFi network?](EN/05_Positioning/02-HowYourPhoneFindsItselfWithoutGPS.md) | 05 · Geolocalización · Positioning |
 | 2026-11-12 | [¿Qué puede ver tu operador de internet de lo que haces aunque la web use HTTPS?](ES/11_PrivacidadYHuella/02-QueVeTuOperadorAunqueUsesHTTPS.md) · [What can your internet provider see of what you do, even when the site uses HTTPS?](EN/11_PrivacyAndFootprint/02-WhatYourISPSeesDespiteHTTPS.md) | 11 · Privacidad y Huella · Privacy and Footprint |
+| 2026-11-13 | [¿Qué ocurre en las celdas de memoria flash cuando borras una foto?](ES/06_Almacenamiento/01-QuePasaEnLaFlashCuandoBorrasUnaFoto.md) · [What happens inside flash memory cells when you delete a photo?](EN/06_Storage/01-WhatHappensInFlashWhenYouDeleteAPhoto.md) | 06 · Almacenamiento · Storage |
 
 <sub>Esta tabla es la que hace visible que el proyecto avanza. No la borres nunca. · <i>This table is what shows the project is moving. Never delete it.</i></sub>
 
