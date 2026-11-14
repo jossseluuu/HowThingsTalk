@@ -125,9 +125,9 @@ Las carpetas y los archivos usan PascalCase, sin espacios, tildes ni eñes, y ca
 | 08 · Energía y Baterías | 0 |
 | 09 · IoT y Smart Home | 0 |
 | 10 · Seguridad y Criptografía | 1 |
-| 11 · Privacidad y Huella | 2 |
+| 11 · Privacidad y Huella | 3 |
 | 99 · Referencia | 0 |
-| **Total** | **13** |
+| **Total** | **14** |
 
 ## ¿Cómo se escribe aquí?
 
@@ -286,9 +286,9 @@ Folders and files use PascalCase, with no spaces or accented characters, and eve
 | 08 · Power and Batteries | 0 |
 | 09 · IoT and Smart Home | 0 |
 | 10 · Security and Cryptography | 1 |
-| 11 · Privacy and Footprint | 2 |
+| 11 · Privacy and Footprint | 3 |
 | 99 · Reference | 0 |
-| **Total** | **13** |
+| **Total** | **14** |
 
 ### How we write
 

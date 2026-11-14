@@ -8,6 +8,12 @@ Formato basado en / Format based on [Keep a Changelog](https://keepachangelog.co
 
 ---
 
+## 2026-11-14 · Revisión automática · Automated review
+
+### Añadido · Added
+
+- Artículo «¿Qué cuenta una foto del móvil, además de lo que se ve en ella?» ([`docs/ES/11_PrivacidadYHuella/03-QueCuentaUnaFotoAdemasDeLaImagen.md`](docs/ES/11_PrivacidadYHuella/03-QueCuentaUnaFotoAdemasDeLaImagen.md)) · Article "What does a phone photo tell about you, beyond what it shows?" ([`docs/EN/11_PrivacyAndFootprint/03-WhatAPhotoRevealsBeyondTheImage.md`](docs/EN/11_PrivacyAndFootprint/03-WhatAPhotoRevealsBeyondTheImage.md)).
+
 ## 2026-11-13 · Revisión automática · Automated review
 
 ### Añadido · Added
