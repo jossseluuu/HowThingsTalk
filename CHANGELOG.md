@@ -8,6 +8,12 @@ Formato basado en / Format based on [Keep a Changelog](https://keepachangelog.co
 
 ---
 
+## 2026-11-15 · Revisión automática · Automated review
+
+### Añadido · Added
+
+- Artículo «¿Por qué el altavoz del móvil apenas da graves?» ([`docs/ES/07_AudioYPerifericos/03-PorQueElAltavozDelMovilApenasDaGraves.md`](docs/ES/07_AudioYPerifericos/03-PorQueElAltavozDelMovilApenasDaGraves.md)) · Article "Why does a phone speaker produce so little bass?" ([`docs/EN/07_AudioAndPeripherals/03-WhyPhoneSpeakersHaveLittleBass.md`](docs/EN/07_AudioAndPeripherals/03-WhyPhoneSpeakersHaveLittleBass.md)).
+
 ## 2026-11-14 · Revisión automática · Automated review
 
 ### Añadido · Added
