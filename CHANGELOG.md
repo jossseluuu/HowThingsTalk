@@ -8,6 +8,12 @@ Formato basado en / Format based on [Keep a Changelog](https://keepachangelog.co
 
 ---
 
+## 2026-11-16 · Revisión automática · Automated review
+
+### Añadido · Added
+
+- Artículo «¿Cómo sabe el móvil que la web a la que se conecta es de verdad quien dice ser?» ([`docs/ES/10_SeguridadYCriptografia/02-ComoSabeElMovilQueUnaWebEsAutentica.md`](docs/ES/10_SeguridadYCriptografia/02-ComoSabeElMovilQueUnaWebEsAutentica.md)) · Article "How does your phone know a website is really who it claims to be?" ([`docs/EN/10_SecurityAndCryptography/02-HowYourPhoneKnowsAWebsiteIsGenuine.md`](docs/EN/10_SecurityAndCryptography/02-HowYourPhoneKnowsAWebsiteIsGenuine.md)).
+
 ## 2026-11-15 · Revisión automática · Automated review
 
 ### Añadido · Added
