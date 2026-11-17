@@ -45,7 +45,7 @@ The library follows a progression from fundamentals to security and privacy impl
 | 05 · Geolocalización / Positioning | 0 | 2 | Publicada / Published |
 | 06 · Almacenamiento / Storage | 0 | 1 | Publicada / Published |
 | 07 · Audio y Periféricos / Audio and Peripherals | 0 | 3 | Publicada / Published |
-| 08 · Energía y Baterías / Power and Batteries | 0 | 0 | Sin artículos / No articles |
+| 08 · Energía y Baterías / Power and Batteries | 0 | 1 | Publicada / Published |
 | 09 · IoT y Smart Home / IoT and Smart Home | 0 | 0 | Sin artículos / No articles |
 | 10 · Seguridad y Criptografía / Security and Cryptography | 0 | 2 | Publicada / Published |
 | 11 · Privacidad y Huella / Privacy and Footprint | 0 | 3 | Publicada / Published |
@@ -119,8 +119,10 @@ The library follows a progression from fundamentals to security and privacy impl
 
 ### 08 · Energía y Baterías / Power and Batteries
 
-- [ES · `08_EnergiaYBaterias`](ES/08_EnergiaYBaterias/) — _(sin artículos todavía)_
-- [EN · `08_PowerAndBatteries`](EN/08_PowerAndBatteries/) — _(no articles yet)_
+- [ES · `08_EnergiaYBaterias`](ES/08_EnergiaYBaterias/)
+  - 01 · [¿Cómo sabe el móvil qué porcentaje de batería le queda?](ES/08_EnergiaYBaterias/01-ComoSabeElMovilCuantaBateriaLeQueda.md)
+- [EN · `08_PowerAndBatteries`](EN/08_PowerAndBatteries/)
+  - 01 · [How does your phone know what percentage of battery it has left?](EN/08_PowerAndBatteries/01-HowYourPhoneKnowsItsBatteryPercentage.md)
 
 ### 09 · IoT y Smart Home / IoT and Smart Home
 

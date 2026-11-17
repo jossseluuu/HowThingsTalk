@@ -8,6 +8,12 @@ Formato basado en / Format based on [Keep a Changelog](https://keepachangelog.co
 
 ---
 
+## 2026-11-17 · Revisión automática · Automated review
+
+### Añadido · Added
+
+- Artículo «¿Cómo sabe el móvil qué porcentaje de batería le queda?» ([`docs/ES/08_EnergiaYBaterias/01-ComoSabeElMovilCuantaBateriaLeQueda.md`](docs/ES/08_EnergiaYBaterias/01-ComoSabeElMovilCuantaBateriaLeQueda.md)) · Article "How does your phone know what percentage of battery it has left?" ([`docs/EN/08_PowerAndBatteries/01-HowYourPhoneKnowsItsBatteryPercentage.md`](docs/EN/08_PowerAndBatteries/01-HowYourPhoneKnowsItsBatteryPercentage.md)).
+
 ## 2026-11-16 · Revisión automática · Automated review
 
 ### Añadido · Added
