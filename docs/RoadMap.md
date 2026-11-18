@@ -13,7 +13,7 @@
 <sub>Tablas compartidas por las dos versiones. Son fechas, rutas y números: se leen igual en cualquier idioma y se actualizan en un solo sitio.<br>
 <i>Shared by both language versions. Dates, paths and numbers read the same either way, and are updated in exactly one place.</i></sub>
 
-**Publicados · Published:** 17 artículos · *17 articles*
+**Publicados · Published:** 18 artículos · *18 articles*
 
 La biblioteca contiene once artículos publicados. Las trece secciones tienen su estructura en `docs/ES/` y `docs/EN/`. Cada artículo se publica en las dos lenguas, con el mismo número de orden en ambas carpetas.
 
@@ -29,14 +29,14 @@ La biblioteca contiene once artículos publicados. Las trece secciones tienen su
 | 03 · Corto Alcance · Short-Range Radio | `03_CortoAlcance` · `03_ShortRangeRadio` | 0 | 0 |
 | 04 · Transferencia de Datos · Data Transfer | `04_TransferenciaDeDatos` · `04_DataTransfer` | 0 | 2 |
 | 05 · Geolocalización · Positioning | `05_Geolocalizacion` · `05_Positioning` | 0 | 2 |
-| 06 · Almacenamiento · Storage | `06_Almacenamiento` · `06_Storage` | 0 | 1 |
+| 06 · Almacenamiento · Storage | `06_Almacenamiento` · `06_Storage` | 0 | 2 |
 | 07 · Audio y Periféricos · Audio and Peripherals | `07_AudioYPerifericos` · `07_AudioAndPeripherals` | 0 | 3 |
 | 08 · Energía y Baterías · Power and Batteries | `08_EnergiaYBaterias` · `08_PowerAndBatteries` | 0 | 1 |
 | 09 · IoT y Smart Home · IoT and Smart Home | `09_IOT` · `09_IOT` | 0 | 0 |
 | 10 · Seguridad y Criptografía · Security and Cryptography | `10_SeguridadYCriptografia` · `10_SecurityAndCryptography` | 0 | 2 |
 | 11 · Privacidad y Huella · Privacy and Footprint | `11_PrivacidadYHuella` · `11_PrivacyAndFootprint` | 0 | 3 |
 | 99 · Referencia · Reference | `99_Referencia` · `99_Reference` | 0 | 0 |
-| **Total** | | **0** | **17** |
+| **Total** | | **0** | **18** |
 
 ### 🔨 En curso · In progress
 
@@ -67,6 +67,7 @@ La biblioteca contiene once artículos publicados. Las trece secciones tienen su
 | 2026-11-15 | [¿Por qué el altavoz del móvil apenas da graves?](ES/07_AudioYPerifericos/03-PorQueElAltavozDelMovilApenasDaGraves.md) · [Why does a phone speaker produce so little bass?](EN/07_AudioAndPeripherals/03-WhyPhoneSpeakersHaveLittleBass.md) | 07 · Audio y Periféricos · Audio and Peripherals |
 | 2026-11-16 | [¿Cómo sabe el móvil que la web a la que se conecta es de verdad quien dice ser?](ES/10_SeguridadYCriptografia/02-ComoSabeElMovilQueUnaWebEsAutentica.md) · [How does your phone know a website is really who it claims to be?](EN/10_SecurityAndCryptography/02-HowYourPhoneKnowsAWebsiteIsGenuine.md) | 10 · Seguridad y Criptografía · Security and Cryptography |
 | 2026-11-17 | [¿Cómo sabe el móvil qué porcentaje de batería le queda?](ES/08_EnergiaYBaterias/01-ComoSabeElMovilCuantaBateriaLeQueda.md) · [How does your phone know what percentage of battery it has left?](EN/08_PowerAndBatteries/01-HowYourPhoneKnowsItsBatteryPercentage.md) | 08 · Energía y Baterías · Power and Batteries |
+| 2026-11-18 | [¿Cómo evita el móvil que sus archivos se corrompan si se apaga de golpe?](ES/06_Almacenamiento/02-ComoSobreviveElSistemaDeArchivosAUnApagon.md) · [How does your phone keep its files from getting corrupted when it shuts off suddenly?](EN/06_Storage/02-HowFileSystemsSurviveSuddenPowerLoss.md) | 06 · Almacenamiento · Storage |
 
 <sub>Esta tabla es la que hace visible que el proyecto avanza. No la borres nunca. · <i>This table is what shows the project is moving. Never delete it.</i></sub>
 

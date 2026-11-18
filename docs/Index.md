@@ -43,7 +43,7 @@ The library follows a progression from fundamentals to security and privacy impl
 | 03 · Corto Alcance / Short-Range Radio | 0 | 0 | Sin artículos / No articles |
 | 04 · Transferencia de Datos / Data Transfer | 0 | 2 | Publicada / Published |
 | 05 · Geolocalización / Positioning | 0 | 2 | Publicada / Published |
-| 06 · Almacenamiento / Storage | 0 | 1 | Publicada / Published |
+| 06 · Almacenamiento / Storage | 0 | 2 | Publicada / Published |
 | 07 · Audio y Periféricos / Audio and Peripherals | 0 | 3 | Publicada / Published |
 | 08 · Energía y Baterías / Power and Batteries | 0 | 1 | Publicada / Published |
 | 09 · IoT y Smart Home / IoT and Smart Home | 0 | 0 | Sin artículos / No articles |
@@ -103,8 +103,10 @@ The library follows a progression from fundamentals to security and privacy impl
 
 - [ES · `06_Almacenamiento`](ES/06_Almacenamiento/)
   - 01 · [¿Qué ocurre en las celdas de memoria flash cuando borras una foto?](ES/06_Almacenamiento/01-QuePasaEnLaFlashCuandoBorrasUnaFoto.md)
+  - 02 · [¿Cómo evita el móvil que sus archivos se corrompan si se apaga de golpe?](ES/06_Almacenamiento/02-ComoSobreviveElSistemaDeArchivosAUnApagon.md)
 - [EN · `06_Storage`](EN/06_Storage/)
   - 01 · [What happens inside flash memory cells when you delete a photo?](EN/06_Storage/01-WhatHappensInFlashWhenYouDeleteAPhoto.md)
+  - 02 · [How does your phone keep its files from getting corrupted when it shuts off suddenly?](EN/06_Storage/02-HowFileSystemsSurviveSuddenPowerLoss.md)
 
 ### 07 · Audio y Periféricos / Audio and Peripherals
 

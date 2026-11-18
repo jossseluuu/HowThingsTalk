@@ -8,6 +8,12 @@ Formato basado en / Format based on [Keep a Changelog](https://keepachangelog.co
 
 ---
 
+## 2026-11-18 · Revisión automática · Automated review
+
+### Añadido · Added
+
+- Artículo «¿Cómo evita el móvil que sus archivos se corrompan si se apaga de golpe?» ([`docs/ES/06_Almacenamiento/02-ComoSobreviveElSistemaDeArchivosAUnApagon.md`](docs/ES/06_Almacenamiento/02-ComoSobreviveElSistemaDeArchivosAUnApagon.md)) · Article "How does your phone keep its files from getting corrupted when it shuts off suddenly?" ([`docs/EN/06_Storage/02-HowFileSystemsSurviveSuddenPowerLoss.md`](docs/EN/06_Storage/02-HowFileSystemsSurviveSuddenPowerLoss.md)).
+
 ## 2026-11-17 · Revisión automática · Automated review
 
 ### Añadido · Added
