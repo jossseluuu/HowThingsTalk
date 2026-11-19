@@ -8,6 +8,12 @@ Formato basado en / Format based on [Keep a Changelog](https://keepachangelog.co
 
 ---
 
+## 2026-11-19 · Revisión automática · Automated review
+
+### Añadido · Added
+
+- Artículo «¿Cómo reparte una antena de telefonía móvil su capacidad entre todos los móviles conectados a la vez?» ([`docs/ES/02_RedesMoviles/01-ComoReparteUnaAntenaSuCapacidad.md`](docs/ES/02_RedesMoviles/01-ComoReparteUnaAntenaSuCapacidad.md)) · Article "How does a cell tower share its capacity among all the connected phones at once?" ([`docs/EN/02_CellularNetworks/01-HowACellTowerSharesItsCapacity.md`](docs/EN/02_CellularNetworks/01-HowACellTowerSharesItsCapacity.md)).
+
 ## 2026-11-18 · Revisión automática · Automated review
 
 ### Añadido · Added

@@ -13,7 +13,7 @@
 <sub>Tablas compartidas por las dos versiones. Son fechas, rutas y números: se leen igual en cualquier idioma y se actualizan en un solo sitio.<br>
 <i>Shared by both language versions. Dates, paths and numbers read the same either way, and are updated in exactly one place.</i></sub>
 
-**Publicados · Published:** 18 artículos · *18 articles*
+**Publicados · Published:** 19 artículos · *19 articles*
 
 La biblioteca contiene once artículos publicados. Las trece secciones tienen su estructura en `docs/ES/` y `docs/EN/`. Cada artículo se publica en las dos lenguas, con el mismo número de orden en ambas carpetas.
 
@@ -25,7 +25,7 @@ La biblioteca contiene once artículos publicados. Las trece secciones tienen su
 |---|---|---|---|
 | 00 · Fundamentos · Foundations | `00_Fundamentos` · `00_Foundations` | 0 | 3 |
 | 01 · Redes WiFi · WiFi Networks | `01_RedesWiFi` · `01_WiFiNetworks` | 0 | 0 |
-| 02 · Redes Móviles · Cellular Networks | `02_RedesMoviles` · `02_CellularNetworks` | 0 | 0 |
+| 02 · Redes Móviles · Cellular Networks | `02_RedesMoviles` · `02_CellularNetworks` | 0 | 1 |
 | 03 · Corto Alcance · Short-Range Radio | `03_CortoAlcance` · `03_ShortRangeRadio` | 0 | 0 |
 | 04 · Transferencia de Datos · Data Transfer | `04_TransferenciaDeDatos` · `04_DataTransfer` | 0 | 2 |
 | 05 · Geolocalización · Positioning | `05_Geolocalizacion` · `05_Positioning` | 0 | 2 |
@@ -36,7 +36,7 @@ La biblioteca contiene once artículos publicados. Las trece secciones tienen su
 | 10 · Seguridad y Criptografía · Security and Cryptography | `10_SeguridadYCriptografia` · `10_SecurityAndCryptography` | 0 | 2 |
 | 11 · Privacidad y Huella · Privacy and Footprint | `11_PrivacidadYHuella` · `11_PrivacyAndFootprint` | 0 | 3 |
 | 99 · Referencia · Reference | `99_Referencia` · `99_Reference` | 0 | 0 |
-| **Total** | | **0** | **18** |
+| **Total** | | **0** | **19** |
 
 ### 🔨 En curso · In progress
 
@@ -68,6 +68,7 @@ La biblioteca contiene once artículos publicados. Las trece secciones tienen su
 | 2026-11-16 | [¿Cómo sabe el móvil que la web a la que se conecta es de verdad quien dice ser?](ES/10_SeguridadYCriptografia/02-ComoSabeElMovilQueUnaWebEsAutentica.md) · [How does your phone know a website is really who it claims to be?](EN/10_SecurityAndCryptography/02-HowYourPhoneKnowsAWebsiteIsGenuine.md) | 10 · Seguridad y Criptografía · Security and Cryptography |
 | 2026-11-17 | [¿Cómo sabe el móvil qué porcentaje de batería le queda?](ES/08_EnergiaYBaterias/01-ComoSabeElMovilCuantaBateriaLeQueda.md) · [How does your phone know what percentage of battery it has left?](EN/08_PowerAndBatteries/01-HowYourPhoneKnowsItsBatteryPercentage.md) | 08 · Energía y Baterías · Power and Batteries |
 | 2026-11-18 | [¿Cómo evita el móvil que sus archivos se corrompan si se apaga de golpe?](ES/06_Almacenamiento/02-ComoSobreviveElSistemaDeArchivosAUnApagon.md) · [How does your phone keep its files from getting corrupted when it shuts off suddenly?](EN/06_Storage/02-HowFileSystemsSurviveSuddenPowerLoss.md) | 06 · Almacenamiento · Storage |
+| 2026-11-19 | [¿Cómo reparte una antena de telefonía móvil su capacidad entre todos los móviles conectados a la vez?](ES/02_RedesMoviles/01-ComoReparteUnaAntenaSuCapacidad.md) · [How does a cell tower share its capacity among all the connected phones at once?](EN/02_CellularNetworks/01-HowACellTowerSharesItsCapacity.md) | 02 · Redes Móviles · Cellular Networks |
 
 <sub>Esta tabla es la que hace visible que el proyecto avanza. No la borres nunca. · <i>This table is what shows the project is moving. Never delete it.</i></sub>
 

@@ -116,7 +116,7 @@ Las carpetas y los archivos usan PascalCase, sin espacios, tildes ni eñes, y ca
 |---|---|
 | 00 · Fundamentos | 3 |
 | 01 · Redes WiFi | 0 |
-| 02 · Redes Móviles | 0 |
+| 02 · Redes Móviles | 1 |
 | 03 · Corto Alcance | 0 |
 | 04 · Transferencia de Datos | 2 |
 | 05 · Geolocalización | 2 |
@@ -127,7 +127,7 @@ Las carpetas y los archivos usan PascalCase, sin espacios, tildes ni eñes, y ca
 | 10 · Seguridad y Criptografía | 2 |
 | 11 · Privacidad y Huella | 3 |
 | 99 · Referencia | 0 |
-| **Total** | **18** |
+| **Total** | **19** |
 
 ## ¿Cómo se escribe aquí?
 
@@ -277,7 +277,7 @@ Folders and files use PascalCase, with no spaces or accented characters, and eve
 |---|---|
 | 00 · Foundations | 3 |
 | 01 · WiFi Networks | 0 |
-| 02 · Cellular Networks | 0 |
+| 02 · Cellular Networks | 1 |
 | 03 · Short-Range Radio | 0 |
 | 04 · Data Transfer | 2 |
 | 05 · Positioning | 2 |
@@ -288,7 +288,7 @@ Folders and files use PascalCase, with no spaces or accented characters, and eve
 | 10 · Security and Cryptography | 2 |
 | 11 · Privacy and Footprint | 3 |
 | 99 · Reference | 0 |
-| **Total** | **18** |
+| **Total** | **19** |
 
 ### How we write
 
