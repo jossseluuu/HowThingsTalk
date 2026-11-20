@@ -13,7 +13,7 @@
 <sub>Tablas compartidas por las dos versiones. Son fechas, rutas y números: se leen igual en cualquier idioma y se actualizan en un solo sitio.<br>
 <i>Shared by both language versions. Dates, paths and numbers read the same either way, and are updated in exactly one place.</i></sub>
 
-**Publicados · Published:** 19 artículos · *19 articles*
+**Publicados · Published:** 20 artículos · *20 articles*
 
 La biblioteca contiene once artículos publicados. Las trece secciones tienen su estructura en `docs/ES/` y `docs/EN/`. Cada artículo se publica en las dos lenguas, con el mismo número de orden en ambas carpetas.
 
@@ -34,9 +34,9 @@ La biblioteca contiene once artículos publicados. Las trece secciones tienen su
 | 08 · Energía y Baterías · Power and Batteries | `08_EnergiaYBaterias` · `08_PowerAndBatteries` | 0 | 1 |
 | 09 · IoT y Smart Home · IoT and Smart Home | `09_IOT` · `09_IOT` | 0 | 0 |
 | 10 · Seguridad y Criptografía · Security and Cryptography | `10_SeguridadYCriptografia` · `10_SecurityAndCryptography` | 0 | 2 |
-| 11 · Privacidad y Huella · Privacy and Footprint | `11_PrivacidadYHuella` · `11_PrivacyAndFootprint` | 0 | 3 |
+| 11 · Privacidad y Huella · Privacy and Footprint | `11_PrivacidadYHuella` · `11_PrivacyAndFootprint` | 0 | 4 |
 | 99 · Referencia · Reference | `99_Referencia` · `99_Reference` | 0 | 0 |
-| **Total** | | **0** | **19** |
+| **Total** | | **0** | **20** |
 
 ### 🔨 En curso · In progress
 
@@ -69,6 +69,7 @@ La biblioteca contiene once artículos publicados. Las trece secciones tienen su
 | 2026-11-17 | [¿Cómo sabe el móvil qué porcentaje de batería le queda?](ES/08_EnergiaYBaterias/01-ComoSabeElMovilCuantaBateriaLeQueda.md) · [How does your phone know what percentage of battery it has left?](EN/08_PowerAndBatteries/01-HowYourPhoneKnowsItsBatteryPercentage.md) | 08 · Energía y Baterías · Power and Batteries |
 | 2026-11-18 | [¿Cómo evita el móvil que sus archivos se corrompan si se apaga de golpe?](ES/06_Almacenamiento/02-ComoSobreviveElSistemaDeArchivosAUnApagon.md) · [How does your phone keep its files from getting corrupted when it shuts off suddenly?](EN/06_Storage/02-HowFileSystemsSurviveSuddenPowerLoss.md) | 06 · Almacenamiento · Storage |
 | 2026-11-19 | [¿Cómo reparte una antena de telefonía móvil su capacidad entre todos los móviles conectados a la vez?](ES/02_RedesMoviles/01-ComoReparteUnaAntenaSuCapacidad.md) · [How does a cell tower share its capacity among all the connected phones at once?](EN/02_CellularNetworks/01-HowACellTowerSharesItsCapacity.md) | 02 · Redes Móviles · Cellular Networks |
+| 2026-11-20 | [¿Cómo puede una web reconocer tu navegador sin usar cookies?](ES/11_PrivacidadYHuella/04-ComoTeReconoceUnaWebSinCookies.md) · [How can a website recognize your browser without using cookies?](EN/11_PrivacyAndFootprint/04-HowWebsitesRecognizeYouWithoutCookies.md) | 11 · Privacidad y Huella · Privacy and Footprint |
 
 <sub>Esta tabla es la que hace visible que el proyecto avanza. No la borres nunca. · <i>This table is what shows the project is moving. Never delete it.</i></sub>
 

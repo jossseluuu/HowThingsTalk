@@ -8,6 +8,12 @@ Formato basado en / Format based on [Keep a Changelog](https://keepachangelog.co
 
 ---
 
+## 2026-11-20 · Revisión automática · Automated review
+
+### Añadido · Added
+
+- Artículo «¿Cómo puede una web reconocer tu navegador sin usar cookies?» ([`docs/ES/11_PrivacidadYHuella/04-ComoTeReconoceUnaWebSinCookies.md`](docs/ES/11_PrivacidadYHuella/04-ComoTeReconoceUnaWebSinCookies.md)) · Article "How can a website recognize your browser without using cookies?" ([`docs/EN/11_PrivacyAndFootprint/04-HowWebsitesRecognizeYouWithoutCookies.md`](docs/EN/11_PrivacyAndFootprint/04-HowWebsitesRecognizeYouWithoutCookies.md)).
+
 ## 2026-11-19 · Revisión automática · Automated review
 
 ### Añadido · Added
