@@ -8,6 +8,12 @@ Formato basado en / Format based on [Keep a Changelog](https://keepachangelog.co
 
 ---
 
+## 2026-11-21 · Revisión automática · Automated review
+
+### Añadido · Added
+
+- Artículo «¿Por qué la calidad de un vídeo en streaming cambia sola según tu conexión?» ([`docs/ES/04_TransferenciaDeDatos/03-PorQueElStreamingCambiaDeCalidad.md`](docs/ES/04_TransferenciaDeDatos/03-PorQueElStreamingCambiaDeCalidad.md)) · Article "Why does streaming video quality change on its own with your connection?" ([`docs/EN/04_DataTransfer/03-WhyStreamingVideoChangesQuality.md`](docs/EN/04_DataTransfer/03-WhyStreamingVideoChangesQuality.md)).
+
 ## 2026-11-20 · Revisión automática · Automated review
 
 ### Añadido · Added

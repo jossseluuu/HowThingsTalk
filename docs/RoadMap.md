@@ -13,7 +13,7 @@
 <sub>Tablas compartidas por las dos versiones. Son fechas, rutas y números: se leen igual en cualquier idioma y se actualizan en un solo sitio.<br>
 <i>Shared by both language versions. Dates, paths and numbers read the same either way, and are updated in exactly one place.</i></sub>
 
-**Publicados · Published:** 20 artículos · *20 articles*
+**Publicados · Published:** 21 artículos · *21 articles*
 
 La biblioteca contiene once artículos publicados. Las trece secciones tienen su estructura en `docs/ES/` y `docs/EN/`. Cada artículo se publica en las dos lenguas, con el mismo número de orden en ambas carpetas.
 
@@ -27,7 +27,7 @@ La biblioteca contiene once artículos publicados. Las trece secciones tienen su
 | 01 · Redes WiFi · WiFi Networks | `01_RedesWiFi` · `01_WiFiNetworks` | 0 | 0 |
 | 02 · Redes Móviles · Cellular Networks | `02_RedesMoviles` · `02_CellularNetworks` | 0 | 1 |
 | 03 · Corto Alcance · Short-Range Radio | `03_CortoAlcance` · `03_ShortRangeRadio` | 0 | 0 |
-| 04 · Transferencia de Datos · Data Transfer | `04_TransferenciaDeDatos` · `04_DataTransfer` | 0 | 2 |
+| 04 · Transferencia de Datos · Data Transfer | `04_TransferenciaDeDatos` · `04_DataTransfer` | 0 | 3 |
 | 05 · Geolocalización · Positioning | `05_Geolocalizacion` · `05_Positioning` | 0 | 2 |
 | 06 · Almacenamiento · Storage | `06_Almacenamiento` · `06_Storage` | 0 | 2 |
 | 07 · Audio y Periféricos · Audio and Peripherals | `07_AudioYPerifericos` · `07_AudioAndPeripherals` | 0 | 3 |
@@ -36,7 +36,7 @@ La biblioteca contiene once artículos publicados. Las trece secciones tienen su
 | 10 · Seguridad y Criptografía · Security and Cryptography | `10_SeguridadYCriptografia` · `10_SecurityAndCryptography` | 0 | 2 |
 | 11 · Privacidad y Huella · Privacy and Footprint | `11_PrivacidadYHuella` · `11_PrivacyAndFootprint` | 0 | 4 |
 | 99 · Referencia · Reference | `99_Referencia` · `99_Reference` | 0 | 0 |
-| **Total** | | **0** | **20** |
+| **Total** | | **0** | **21** |
 
 ### 🔨 En curso · In progress
 
@@ -70,6 +70,7 @@ La biblioteca contiene once artículos publicados. Las trece secciones tienen su
 | 2026-11-18 | [¿Cómo evita el móvil que sus archivos se corrompan si se apaga de golpe?](ES/06_Almacenamiento/02-ComoSobreviveElSistemaDeArchivosAUnApagon.md) · [How does your phone keep its files from getting corrupted when it shuts off suddenly?](EN/06_Storage/02-HowFileSystemsSurviveSuddenPowerLoss.md) | 06 · Almacenamiento · Storage |
 | 2026-11-19 | [¿Cómo reparte una antena de telefonía móvil su capacidad entre todos los móviles conectados a la vez?](ES/02_RedesMoviles/01-ComoReparteUnaAntenaSuCapacidad.md) · [How does a cell tower share its capacity among all the connected phones at once?](EN/02_CellularNetworks/01-HowACellTowerSharesItsCapacity.md) | 02 · Redes Móviles · Cellular Networks |
 | 2026-11-20 | [¿Cómo puede una web reconocer tu navegador sin usar cookies?](ES/11_PrivacidadYHuella/04-ComoTeReconoceUnaWebSinCookies.md) · [How can a website recognize your browser without using cookies?](EN/11_PrivacyAndFootprint/04-HowWebsitesRecognizeYouWithoutCookies.md) | 11 · Privacidad y Huella · Privacy and Footprint |
+| 2026-11-21 | [¿Por qué la calidad de un vídeo en streaming cambia sola según tu conexión?](ES/04_TransferenciaDeDatos/03-PorQueElStreamingCambiaDeCalidad.md) · [Why does streaming video quality change on its own with your connection?](EN/04_DataTransfer/03-WhyStreamingVideoChangesQuality.md) | 04 · Transferencia de Datos · Data Transfer |
 
 <sub>Esta tabla es la que hace visible que el proyecto avanza. No la borres nunca. · <i>This table is what shows the project is moving. Never delete it.</i></sub>
 
