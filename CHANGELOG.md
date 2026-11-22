@@ -8,6 +8,12 @@ Formato basado en / Format based on [Keep a Changelog](https://keepachangelog.co
 
 ---
 
+## 2026-11-22 · Revisión automática · Automated review
+
+### Añadido · Added
+
+- Artículo «¿Cómo se turnan los aparatos de una red WiFi para no transmitir a la vez?» ([`docs/ES/01_RedesWiFi/01-ComoSeTurnanLosAparatosDeUnaRedWiFi.md`](docs/ES/01_RedesWiFi/01-ComoSeTurnanLosAparatosDeUnaRedWiFi.md)) · Article "How do devices on a WiFi network take turns so they don't transmit at once?" ([`docs/EN/01_WiFiNetworks/01-HowWiFiDevicesTakeTurnsToTransmit.md`](docs/EN/01_WiFiNetworks/01-HowWiFiDevicesTakeTurnsToTransmit.md)).
+
 ## 2026-11-21 · Revisión automática · Automated review
 
 ### Añadido · Added

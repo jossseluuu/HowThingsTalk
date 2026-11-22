@@ -38,7 +38,7 @@ The library follows a progression from fundamentals to security and privacy impl
 | Sección / Section | En revisión / In review | Publicados / Published | Estado / Status |
 |---|---|---|---|
 | 00 · Fundamentos / Foundations | 0 | 3 | Publicada / Published |
-| 01 · Redes WiFi / WiFi Networks | 0 | 0 | Sin artículos / No articles |
+| 01 · Redes WiFi / WiFi Networks | 0 | 1 | Publicada / Published |
 | 02 · Redes Móviles / Cellular Networks | 0 | 1 | Publicada / Published |
 | 03 · Corto Alcance / Short-Range Radio | 0 | 0 | Sin artículos / No articles |
 | 04 · Transferencia de Datos / Data Transfer | 0 | 3 | Publicada / Published |
@@ -68,8 +68,10 @@ The library follows a progression from fundamentals to security and privacy impl
 
 ### 01 · Redes WiFi / WiFi Networks
 
-- [ES · `01_RedesWiFi`](ES/01_RedesWiFi/) — _(sin artículos todavía)_
-- [EN · `01_WiFiNetworks`](EN/01_WiFiNetworks/) — _(no articles yet)_
+- [ES · `01_RedesWiFi`](ES/01_RedesWiFi/)
+  - 01 · [¿Cómo se turnan los aparatos de una red WiFi para no transmitir a la vez?](ES/01_RedesWiFi/01-ComoSeTurnanLosAparatosDeUnaRedWiFi.md)
+- [EN · `01_WiFiNetworks`](EN/01_WiFiNetworks/)
+  - 01 · [How do devices on a WiFi network take turns so they don't transmit at once?](EN/01_WiFiNetworks/01-HowWiFiDevicesTakeTurnsToTransmit.md)
 
 ### 02 · Redes Móviles / Cellular Networks
 
