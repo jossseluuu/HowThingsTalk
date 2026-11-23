@@ -13,7 +13,7 @@
 <sub>Tablas compartidas por las dos versiones. Son fechas, rutas y números: se leen igual en cualquier idioma y se actualizan en un solo sitio.<br>
 <i>Shared by both language versions. Dates, paths and numbers read the same either way, and are updated in exactly one place.</i></sub>
 
-**Publicados · Published:** 22 artículos · *22 articles*
+**Publicados · Published:** 23 artículos · *23 articles*
 
 La biblioteca contiene once artículos publicados. Las trece secciones tienen su estructura en `docs/ES/` y `docs/EN/`. Cada artículo se publica en las dos lenguas, con el mismo número de orden en ambas carpetas.
 
@@ -33,10 +33,10 @@ La biblioteca contiene once artículos publicados. Las trece secciones tienen su
 | 07 · Audio y Periféricos · Audio and Peripherals | `07_AudioYPerifericos` · `07_AudioAndPeripherals` | 0 | 3 |
 | 08 · Energía y Baterías · Power and Batteries | `08_EnergiaYBaterias` · `08_PowerAndBatteries` | 0 | 1 |
 | 09 · IoT y Smart Home · IoT and Smart Home | `09_IOT` · `09_IOT` | 0 | 0 |
-| 10 · Seguridad y Criptografía · Security and Cryptography | `10_SeguridadYCriptografia` · `10_SecurityAndCryptography` | 0 | 2 |
+| 10 · Seguridad y Criptografía · Security and Cryptography | `10_SeguridadYCriptografia` · `10_SecurityAndCryptography` | 0 | 3 |
 | 11 · Privacidad y Huella · Privacy and Footprint | `11_PrivacidadYHuella` · `11_PrivacyAndFootprint` | 0 | 4 |
 | 99 · Referencia · Reference | `99_Referencia` · `99_Reference` | 0 | 0 |
-| **Total** | | **0** | **22** |
+| **Total** | | **0** | **23** |
 
 ### 🔨 En curso · In progress
 
@@ -72,6 +72,7 @@ La biblioteca contiene once artículos publicados. Las trece secciones tienen su
 | 2026-11-20 | [¿Cómo puede una web reconocer tu navegador sin usar cookies?](ES/11_PrivacidadYHuella/04-ComoTeReconoceUnaWebSinCookies.md) · [How can a website recognize your browser without using cookies?](EN/11_PrivacyAndFootprint/04-HowWebsitesRecognizeYouWithoutCookies.md) | 11 · Privacidad y Huella · Privacy and Footprint |
 | 2026-11-21 | [¿Por qué la calidad de un vídeo en streaming cambia sola según tu conexión?](ES/04_TransferenciaDeDatos/03-PorQueElStreamingCambiaDeCalidad.md) · [Why does streaming video quality change on its own with your connection?](EN/04_DataTransfer/03-WhyStreamingVideoChangesQuality.md) | 04 · Transferencia de Datos · Data Transfer |
 | 2026-11-22 | [¿Cómo se turnan los aparatos de una red WiFi para no transmitir a la vez?](ES/01_RedesWiFi/01-ComoSeTurnanLosAparatosDeUnaRedWiFi.md) · [How do devices on a WiFi network take turns so they don't transmit at once?](EN/01_WiFiNetworks/01-HowWiFiDevicesTakeTurnsToTransmit.md) | 01 · Redes WiFi · WiFi Networks |
+| 2026-11-23 | [¿Cómo genera la app de autenticación un código válido sin conectarse a internet?](ES/10_SeguridadYCriptografia/03-ComoGeneraLaAppDeAutenticacionSusCodigos.md) · [How does an authenticator app produce a valid code without connecting to the internet?](EN/10_SecurityAndCryptography/03-HowAuthenticatorAppsGenerateCodes.md) | 10 · Seguridad y Criptografía · Security and Cryptography |
 
 <sub>Esta tabla es la que hace visible que el proyecto avanza. No la borres nunca. · <i>This table is what shows the project is moving. Never delete it.</i></sub>
 

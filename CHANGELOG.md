@@ -8,6 +8,12 @@ Formato basado en / Format based on [Keep a Changelog](https://keepachangelog.co
 
 ---
 
+## 2026-11-23 · Revisión automática · Automated review
+
+### Añadido · Added
+
+- Artículo «¿Cómo genera la app de autenticación un código válido sin conectarse a internet?» ([`docs/ES/10_SeguridadYCriptografia/03-ComoGeneraLaAppDeAutenticacionSusCodigos.md`](docs/ES/10_SeguridadYCriptografia/03-ComoGeneraLaAppDeAutenticacionSusCodigos.md)) · Article "How does an authenticator app produce a valid code without connecting to the internet?" ([`docs/EN/10_SecurityAndCryptography/03-HowAuthenticatorAppsGenerateCodes.md`](docs/EN/10_SecurityAndCryptography/03-HowAuthenticatorAppsGenerateCodes.md)).
+
 ## 2026-11-22 · Revisión automática · Automated review
 
 ### Añadido · Added

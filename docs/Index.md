@@ -47,7 +47,7 @@ The library follows a progression from fundamentals to security and privacy impl
 | 07 · Audio y Periféricos / Audio and Peripherals | 0 | 3 | Publicada / Published |
 | 08 · Energía y Baterías / Power and Batteries | 0 | 1 | Publicada / Published |
 | 09 · IoT y Smart Home / IoT and Smart Home | 0 | 0 | Sin artículos / No articles |
-| 10 · Seguridad y Criptografía / Security and Cryptography | 0 | 2 | Publicada / Published |
+| 10 · Seguridad y Criptografía / Security and Cryptography | 0 | 3 | Publicada / Published |
 | 11 · Privacidad y Huella / Privacy and Footprint | 0 | 4 | Publicada / Published |
 | 99 · Referencia / Reference | 0 | 0 | Sin artículos / No articles |
 
@@ -142,9 +142,11 @@ The library follows a progression from fundamentals to security and privacy impl
 - [ES · `10_SeguridadYCriptografia`](ES/10_SeguridadYCriptografia/)
   - 01 · [¿Cómo acuerdan dos aparatos una clave secreta hablando por un canal que cualquiera puede escuchar?](ES/10_SeguridadYCriptografia/01-ComoAcuerdanDosAparatosUnaClaveSecreta.md)
   - 02 · [¿Cómo sabe el móvil que la web a la que se conecta es de verdad quien dice ser?](ES/10_SeguridadYCriptografia/02-ComoSabeElMovilQueUnaWebEsAutentica.md)
+  - 03 · [¿Cómo genera la app de autenticación un código válido sin conectarse a internet?](ES/10_SeguridadYCriptografia/03-ComoGeneraLaAppDeAutenticacionSusCodigos.md)
 - [EN · `10_SecurityAndCryptography`](EN/10_SecurityAndCryptography/)
   - 01 · [How do two devices agree on a secret key over a channel anyone can listen to?](EN/10_SecurityAndCryptography/01-HowTwoDevicesAgreeOnASecretKey.md)
   - 02 · [How does your phone know a website is really who it claims to be?](EN/10_SecurityAndCryptography/02-HowYourPhoneKnowsAWebsiteIsGenuine.md)
+  - 03 · [How does an authenticator app produce a valid code without connecting to the internet?](EN/10_SecurityAndCryptography/03-HowAuthenticatorAppsGenerateCodes.md)
 
 ### 11 · Privacidad y Huella / Privacy and Footprint
 
