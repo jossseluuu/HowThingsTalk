@@ -8,6 +8,12 @@ Formato basado en / Format based on [Keep a Changelog](https://keepachangelog.co
 
 ---
 
+## 2026-11-24 · Revisión automática · Automated review
+
+### Añadido · Added
+
+- Artículo «¿Cómo pasa el móvil de una antena a otra sin cortar la conexión?» ([`docs/ES/02_RedesMoviles/02-ComoPasaElMovilDeUnaAntenaAOtra.md`](docs/ES/02_RedesMoviles/02-ComoPasaElMovilDeUnaAntenaAOtra.md)) · Article "How does your phone switch from one cell tower to another without dropping the connection?" ([`docs/EN/02_CellularNetworks/02-HowYourPhoneHandsOverBetweenCellTowers.md`](docs/EN/02_CellularNetworks/02-HowYourPhoneHandsOverBetweenCellTowers.md)).
+
 ## 2026-11-23 · Revisión automática · Automated review
 
 ### Añadido · Added

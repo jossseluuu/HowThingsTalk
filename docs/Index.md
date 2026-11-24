@@ -39,7 +39,7 @@ The library follows a progression from fundamentals to security and privacy impl
 |---|---|---|---|
 | 00 · Fundamentos / Foundations | 0 | 3 | Publicada / Published |
 | 01 · Redes WiFi / WiFi Networks | 0 | 1 | Publicada / Published |
-| 02 · Redes Móviles / Cellular Networks | 0 | 1 | Publicada / Published |
+| 02 · Redes Móviles / Cellular Networks | 0 | 2 | Publicada / Published |
 | 03 · Corto Alcance / Short-Range Radio | 0 | 0 | Sin artículos / No articles |
 | 04 · Transferencia de Datos / Data Transfer | 0 | 3 | Publicada / Published |
 | 05 · Geolocalización / Positioning | 0 | 2 | Publicada / Published |
@@ -77,8 +77,10 @@ The library follows a progression from fundamentals to security and privacy impl
 
 - [ES · `02_RedesMoviles`](ES/02_RedesMoviles/)
   - 01 · [¿Cómo reparte una antena de telefonía móvil su capacidad entre todos los móviles conectados a la vez?](ES/02_RedesMoviles/01-ComoReparteUnaAntenaSuCapacidad.md)
+  - 02 · [¿Cómo pasa el móvil de una antena a otra sin cortar la conexión?](ES/02_RedesMoviles/02-ComoPasaElMovilDeUnaAntenaAOtra.md)
 - [EN · `02_CellularNetworks`](EN/02_CellularNetworks/)
   - 01 · [How does a cell tower share its capacity among all the connected phones at once?](EN/02_CellularNetworks/01-HowACellTowerSharesItsCapacity.md)
+  - 02 · [How does your phone switch from one cell tower to another without dropping the connection?](EN/02_CellularNetworks/02-HowYourPhoneHandsOverBetweenCellTowers.md)
 
 ### 03 · Corto Alcance / Short-Range Radio
 
