@@ -8,6 +8,12 @@ Formato basado en / Format based on [Keep a Changelog](https://keepachangelog.co
 
 ---
 
+## 2026-11-25 · Revisión automática · Automated review
+
+### Añadido · Added
+
+- Artículo «¿Cómo ayuda la red móvil al GPS del teléfono a encontrar tu posición en pocos segundos?» ([`docs/ES/05_Geolocalizacion/03-ComoAyudaLaRedMovilAlGPSAArrancar.md`](docs/ES/05_Geolocalizacion/03-ComoAyudaLaRedMovilAlGPSAArrancar.md)) · Article "How does the mobile network help a phone's GPS find your position in a few seconds?" ([`docs/EN/05_Positioning/03-HowTheNetworkHelpsGPSFindYouFast.md`](docs/EN/05_Positioning/03-HowTheNetworkHelpsGPSFindYouFast.md)).
+
 ## 2026-11-24 · Revisión automática · Automated review
 
 ### Añadido · Added
