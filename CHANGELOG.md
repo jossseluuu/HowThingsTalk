@@ -8,6 +8,12 @@ Formato basado en / Format based on [Keep a Changelog](https://keepachangelog.co
 
 ---
 
+## 2026-11-26 · Revisión automática · Automated review
+
+### Añadido · Added
+
+- Artículo «¿Cómo encuentra la red a tu móvil para avisarle de una llamada si está en reposo?» ([`docs/ES/02_RedesMoviles/03-ComoEncuentraLaRedATuMovilEnReposo.md`](docs/ES/02_RedesMoviles/03-ComoEncuentraLaRedATuMovilEnReposo.md)) · Article "How does the network find your phone to tell it about a call when it is idle?" ([`docs/EN/02_CellularNetworks/03-HowTheNetworkFindsAnIdlePhone.md`](docs/EN/02_CellularNetworks/03-HowTheNetworkFindsAnIdlePhone.md)).
+
 ## 2026-11-25 · Revisión automática · Automated review
 
 ### Añadido · Added
