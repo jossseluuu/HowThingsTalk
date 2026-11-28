@@ -8,6 +8,18 @@ Formato basado en / Format based on [Keep a Changelog](https://keepachangelog.co
 
 ---
 
+## 2026-11-28 · Revisión automática · Automated review
+
+### Añadido · Added
+
+- Artículo «¿Por qué una bombilla inteligente pasa por un servidor lejano para encenderse desde la misma habitación?» ([`docs/ES/09_IOT/01-PorQueLaBombillaInteligentePasaPorLaNube.md`](docs/ES/09_IOT/01-PorQueLaBombillaInteligentePasaPorLaNube.md)) · Article "Why does a smart bulb go through a distant server to turn on from the same room?" ([`docs/EN/09_IOT/01-WhySmartBulbsGoThroughTheCloud.md`](docs/EN/09_IOT/01-WhySmartBulbsGoThroughTheCloud.md)).
+
+## 2026-11-27 · Revisión automática · Automated review
+
+### Añadido · Added
+
+- Artículo «¿Por qué los móviles recientes escuchan el GPS en dos frecuencias?» ([`docs/ES/05_Geolocalizacion/04-PorQueElGPSDelMovilUsaDosFrecuencias.md`](docs/ES/05_Geolocalizacion/04-PorQueElGPSDelMovilUsaDosFrecuencias.md)) · Article "Why do recent phones listen to GPS on two frequencies?" ([`docs/EN/05_Positioning/04-WhyPhoneGPSUsesTwoFrequencies.md`](docs/EN/05_Positioning/04-WhyPhoneGPSUsesTwoFrequencies.md)).
+
 ## 2026-11-26 · Revisión automática · Automated review
 
 ### Añadido · Added

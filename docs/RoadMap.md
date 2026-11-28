@@ -13,7 +13,7 @@
 <sub>Tablas compartidas por las dos versiones. Son fechas, rutas y números: se leen igual en cualquier idioma y se actualizan en un solo sitio.<br>
 <i>Shared by both language versions. Dates, paths and numbers read the same either way, and are updated in exactly one place.</i></sub>
 
-**Publicados · Published:** 26 artículos · *26 articles*
+**Publicados · Published:** 28 artículos · *28 articles*
 
 La biblioteca contiene once artículos publicados. Las trece secciones tienen su estructura en `docs/ES/` y `docs/EN/`. Cada artículo se publica en las dos lenguas, con el mismo número de orden en ambas carpetas.
 
@@ -28,15 +28,15 @@ La biblioteca contiene once artículos publicados. Las trece secciones tienen su
 | 02 · Redes Móviles · Cellular Networks | `02_RedesMoviles` · `02_CellularNetworks` | 0 | 3 |
 | 03 · Corto Alcance · Short-Range Radio | `03_CortoAlcance` · `03_ShortRangeRadio` | 0 | 0 |
 | 04 · Transferencia de Datos · Data Transfer | `04_TransferenciaDeDatos` · `04_DataTransfer` | 0 | 3 |
-| 05 · Geolocalización · Positioning | `05_Geolocalizacion` · `05_Positioning` | 0 | 3 |
+| 05 · Geolocalización · Positioning | `05_Geolocalizacion` · `05_Positioning` | 0 | 4 |
 | 06 · Almacenamiento · Storage | `06_Almacenamiento` · `06_Storage` | 0 | 2 |
 | 07 · Audio y Periféricos · Audio and Peripherals | `07_AudioYPerifericos` · `07_AudioAndPeripherals` | 0 | 3 |
 | 08 · Energía y Baterías · Power and Batteries | `08_EnergiaYBaterias` · `08_PowerAndBatteries` | 0 | 1 |
-| 09 · IoT y Smart Home · IoT and Smart Home | `09_IOT` · `09_IOT` | 0 | 0 |
+| 09 · IoT y Smart Home · IoT and Smart Home | `09_IOT` · `09_IOT` | 0 | 1 |
 | 10 · Seguridad y Criptografía · Security and Cryptography | `10_SeguridadYCriptografia` · `10_SecurityAndCryptography` | 0 | 3 |
 | 11 · Privacidad y Huella · Privacy and Footprint | `11_PrivacidadYHuella` · `11_PrivacyAndFootprint` | 0 | 4 |
 | 99 · Referencia · Reference | `99_Referencia` · `99_Reference` | 0 | 0 |
-| **Total** | | **0** | **26** |
+| **Total** | | **0** | **28** |
 
 ### 🔨 En curso · In progress
 
@@ -76,6 +76,8 @@ La biblioteca contiene once artículos publicados. Las trece secciones tienen su
 | 2026-11-24 | [¿Cómo pasa el móvil de una antena a otra sin cortar la conexión?](ES/02_RedesMoviles/02-ComoPasaElMovilDeUnaAntenaAOtra.md) · [How does your phone switch from one cell tower to another without dropping the connection?](EN/02_CellularNetworks/02-HowYourPhoneHandsOverBetweenCellTowers.md) | 02 · Redes Móviles · Cellular Networks |
 | 2026-11-25 | [¿Cómo ayuda la red móvil al GPS del teléfono a encontrar tu posición en pocos segundos?](ES/05_Geolocalizacion/03-ComoAyudaLaRedMovilAlGPSAArrancar.md) · [How does the mobile network help a phone's GPS find your position in a few seconds?](EN/05_Positioning/03-HowTheNetworkHelpsGPSFindYouFast.md) | 05 · Geolocalización · Positioning |
 | 2026-11-26 | [¿Cómo encuentra la red a tu móvil para avisarle de una llamada si está en reposo?](ES/02_RedesMoviles/03-ComoEncuentraLaRedATuMovilEnReposo.md) · [How does the network find your phone to tell it about a call when it is idle?](EN/02_CellularNetworks/03-HowTheNetworkFindsAnIdlePhone.md) | 02 · Redes Móviles · Cellular Networks |
+| 2026-11-27 | [¿Por qué los móviles recientes escuchan el GPS en dos frecuencias?](ES/05_Geolocalizacion/04-PorQueElGPSDelMovilUsaDosFrecuencias.md) · [Why do recent phones listen to GPS on two frequencies?](EN/05_Positioning/04-WhyPhoneGPSUsesTwoFrequencies.md) | 05 · Geolocalización · Positioning |
+| 2026-11-28 | [¿Por qué una bombilla inteligente pasa por un servidor lejano para encenderse desde la misma habitación?](ES/09_IOT/01-PorQueLaBombillaInteligentePasaPorLaNube.md) · [Why does a smart bulb go through a distant server to turn on from the same room?](EN/09_IOT/01-WhySmartBulbsGoThroughTheCloud.md) | 09 · IoT y Smart Home · IoT and Smart Home |
 
 <sub>Esta tabla es la que hace visible que el proyecto avanza. No la borres nunca. · <i>This table is what shows the project is moving. Never delete it.</i></sub>
 

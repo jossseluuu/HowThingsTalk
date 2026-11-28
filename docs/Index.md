@@ -42,11 +42,11 @@ The library follows a progression from fundamentals to security and privacy impl
 | 02 · Redes Móviles / Cellular Networks | 0 | 3 | Publicada / Published |
 | 03 · Corto Alcance / Short-Range Radio | 0 | 0 | Sin artículos / No articles |
 | 04 · Transferencia de Datos / Data Transfer | 0 | 3 | Publicada / Published |
-| 05 · Geolocalización / Positioning | 0 | 3 | Publicada / Published |
+| 05 · Geolocalización / Positioning | 0 | 4 | Publicada / Published |
 | 06 · Almacenamiento / Storage | 0 | 2 | Publicada / Published |
 | 07 · Audio y Periféricos / Audio and Peripherals | 0 | 3 | Publicada / Published |
 | 08 · Energía y Baterías / Power and Batteries | 0 | 1 | Publicada / Published |
-| 09 · IoT y Smart Home / IoT and Smart Home | 0 | 0 | Sin artículos / No articles |
+| 09 · IoT y Smart Home / IoT and Smart Home | 0 | 1 | Publicada / Published |
 | 10 · Seguridad y Criptografía / Security and Cryptography | 0 | 3 | Publicada / Published |
 | 11 · Privacidad y Huella / Privacy and Footprint | 0 | 4 | Publicada / Published |
 | 99 · Referencia / Reference | 0 | 0 | Sin artículos / No articles |
@@ -106,10 +106,12 @@ The library follows a progression from fundamentals to security and privacy impl
   - 01 · [¿Cómo calcula un receptor GPS su posición a partir de las señales de los satélites?](ES/05_Geolocalizacion/01-ComoCalculaElGPSTuPosicion.md)
   - 02 · [¿Cómo sabe el móvil dónde está con el GPS apagado y sin conectarse a ninguna red WiFi?](ES/05_Geolocalizacion/02-ComoTeLocalizaElMovilSinGPS.md)
   - 03 · [¿Cómo ayuda la red móvil al GPS del teléfono a encontrar tu posición en pocos segundos?](ES/05_Geolocalizacion/03-ComoAyudaLaRedMovilAlGPSAArrancar.md)
+  - 04 · [¿Por qué los móviles recientes escuchan el GPS en dos frecuencias?](ES/05_Geolocalizacion/04-PorQueElGPSDelMovilUsaDosFrecuencias.md)
 - [EN · `05_Positioning`](EN/05_Positioning/)
   - 01 · [How does a GPS receiver work out its position from satellite signals?](EN/05_Positioning/01-HowGPSComputesYourPosition.md)
   - 02 · [How does your phone know where it is with GPS off and without joining any WiFi network?](EN/05_Positioning/02-HowYourPhoneFindsItselfWithoutGPS.md)
   - 03 · [How does the mobile network help a phone's GPS find your position in a few seconds?](EN/05_Positioning/03-HowTheNetworkHelpsGPSFindYouFast.md)
+  - 04 · [Why do recent phones listen to GPS on two frequencies?](EN/05_Positioning/04-WhyPhoneGPSUsesTwoFrequencies.md)
 
 ### 06 · Almacenamiento / Storage
 
@@ -140,8 +142,10 @@ The library follows a progression from fundamentals to security and privacy impl
 
 ### 09 · IoT y Smart Home / IoT and Smart Home
 
-- [ES · `09_IOT`](ES/09_IOT/) — _(sin artículos todavía)_
-- [EN · `09_IOT`](EN/09_IOT/) — _(no articles yet)_
+- [ES · `09_IOT`](ES/09_IOT/)
+  - 01 · [¿Por qué una bombilla inteligente pasa por un servidor lejano para encenderse desde la misma habitación?](ES/09_IOT/01-PorQueLaBombillaInteligentePasaPorLaNube.md)
+- [EN · `09_IOT`](EN/09_IOT/)
+  - 01 · [Why does a smart bulb go through a distant server to turn on from the same room?](EN/09_IOT/01-WhySmartBulbsGoThroughTheCloud.md)
 
 ### 10 · Seguridad y Criptografía / Security and Cryptography
 
